@@ -51,7 +51,7 @@ python -m unittest discover -s src -p "test_*.py" -v
 python scripts/verify_evidence.py
 ```
 
-历史训练环境为 NumPy 1.26.4、PyTorch 2.6.0；见 `requirements-recorded.txt`。本轮在 NumPy 2.2.6、PyTorch 2.12.1 CPU 环境运行测试，并从十个历史检查点重建合成数据、核验测试输入哈希和回放缺失标记对照。关键均值及 1,000 次配对交叉 bootstrap 区间与存档在 1e-7 容差内一致。
+历史训练环境为 NumPy 1.26.4、PyTorch 2.6.0；见 `requirements-recorded.txt`。本轮在 NumPy 2.2.6、PyTorch 2.12.1 CPU 环境运行测试，并从十组历史运行的 30 个模型检查点重建合成数据、核验测试输入哈希和回放缺失标记对照。关键均值及 1,000 次配对交叉 bootstrap 区间与存档在 1e-7 容差内一致。
 
 ## 原始资源与复现边界
 
