@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "profiles": [
+    "independent",
+    "shortcut"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "arms": [
+    "clean",
+    "augmentation",
+    "consistency"
+  ],
+  "epochs": 100,
+  "batch": 1024,
+  "noise_sd": 0.5,
+  "kl_weight": 0.1,
+  "source_sha256": {
+    "e4.py": "be2c96fb00cfe14329a0db02ae5fe5485a99611bccdd537fef575c46956acacc",
+    "run.py": "36c50ef0f827f5e819839d5a8868ead76a161e809d49948abf0e673cf98800a2",
+    "E4_PROTOCOL.md": "56339d92210c0b5934e7461c2e7057f6503261f80f71553ef62e54a33d277636"
+  },
+  "status": "complete_verified",
+  "remote_directory": "/home/yangjian/.cache/moe-course-20261019.Ahtg1l",
+  "primary_endpoint": "consistency-minus-augmentation MSE at noise SD 1, separately by profile",
+  "last_check_date": "2026-10-20",
+  "last_verified_progress": "All 10 clean arms completed; seed 0 in both profiles completed augmentation; consistency training had started. Other augmentation arms running.",
+  "network_observation": "SSH TCP connect timeout on node12, node35, node36. No experiment outcome inferred.",
+  "completion_check_date": "2026-10-20",
+  "remote_cleanup_verified": true,
+  "retained_archive": "MoE_E4_AnalysisCapsule.tar.gz",
+  "retained_scope": "All checkpoints, histories, all-condition scalar metrics, noise/shift paired predictions; remaining predictions regenerable."
+}

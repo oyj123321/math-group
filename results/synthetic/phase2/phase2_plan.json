@@ -1,0 +1,43 @@
+{
+  "protocol_version": 2,
+  "source_sha256": "36c50ef0f827f5e819839d5a8868ead76a161e809d49948abf0e673cf98800a2",
+  "profiles": [
+    "independent",
+    "shortcut"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "train": 80000,
+  "val": 10000,
+  "test": 20000,
+  "width": 128,
+  "epochs": 100,
+  "batch": 1024,
+  "balance": 0.1,
+  "perturb_reps": 3,
+  "primary_endpoints": [
+    "routing_term",
+    "total_degradation",
+    "expert_removal_effect"
+  ],
+  "bootstrap": "paired crossed resampling of training seeds and source IDs; average perturbation replicates within source",
+  "limitations": [
+    "linear MAC matching excludes activation and dispatch overhead",
+    "shortcut cue remains observable",
+    "only five training seeds",
+    "synthetic tasks"
+  ],
+  "remote_directory": "/home/yangjian/.cache/moe-course-20261013.TLqUGb",
+  "status": "E1_E3_analysis_complete",
+  "remote_cleanup_verified": true,
+  "server_numpy": "1.26.4",
+  "archive_sha256": "716f7dc34d90fe9b458b35b009d4e675f1c61a0a91e0037fc6c9c152b892e852",
+  "tests_passed": 9,
+  "benchmark_complete": true,
+  "all_remote_temporary_directories_removed": true
+}

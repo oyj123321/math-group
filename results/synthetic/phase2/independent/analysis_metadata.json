@@ -1,0 +1,73 @@
+{
+  "bootstrap_draws": 1000,
+  "method": "paired crossed seed/source bootstrap; perturbation replicas averaged within source",
+  "interval": "pointwise percentile 95%; exploratory, no multiplicity correction",
+  "limitations": [
+    "five seeds give limited tail precision",
+    "seed resampling is not an independent dataset replication",
+    "synthetic tasks and observable regime cue",
+    "linear MACs omit routing/activation overhead"
+  ],
+  "source_sha256": "36c50ef0f827f5e819839d5a8868ead76a161e809d49948abf0e673cf98800a2",
+  "configuration": {
+    "out": "/home/yangjian/.cache/moe-course-20261013.TLqUGb/runs/independent/seed0",
+    "seed": 0,
+    "epochs": 100,
+    "train": 80000,
+    "val": 10000,
+    "test": 20000,
+    "width": 128,
+    "batch": 1024,
+    "lr": 0.002,
+    "balance": 0.1,
+    "device": "cuda:0",
+    "shortcut": false,
+    "perturb_reps": 3,
+    "torch": "2.6.0+cu124",
+    "python": "3.11.6 | packaged by conda-forge | (main, Oct  3 2023, 10:40:35) [GCC 12.3.0]",
+    "platform": "Linux-5.15.0-60-generic-x86_64-with-glibc2.35",
+    "source_sha256": "36c50ef0f827f5e819839d5a8868ead76a161e809d49948abf0e673cf98800a2",
+    "target_mean": [
+      0.0005685953074134886,
+      -0.0048002623952925205,
+      -0.00904197059571743,
+      -0.004766393452882767
+    ],
+    "target_std": [
+      0.994063675403595,
+      1.001986026763916,
+      0.9895032048225403,
+      0.6620336771011353
+    ],
+    "data_seeds": {
+      "train": 10000,
+      "validation": 20000,
+      "test": 30000
+    },
+    "cuda": "12.4",
+    "gpu": "NVIDIA A800-SXM4-80GB",
+    "protocol_version": 2,
+    "perturbation_seed_base": 9000,
+    "dataset_sha256": [
+      "1eb7a57c339a16e14d8fcb1582757703aa11a75ebdfdb9e006dcef37287224cd",
+      "398c729576e7fdaddaa4a0883211539398af90521f91aaaed19ed9c90116ddee",
+      "b0db9b42d8c75e10e32368122c3701a23bae44aad74cc11b7d319a3b33151f05"
+    ],
+    "status": "complete",
+    "model_budgets": {
+      "moe": {
+        "parameters": 85640,
+        "active_linear_macs_per_item": 24192
+      },
+      "dense_active": {
+        "parameters": 24477,
+        "active_linear_macs_per_item": 24192
+      },
+      "dense_total": {
+        "parameters": 85639,
+        "active_linear_macs_per_item": 85049
+      }
+    },
+    "elapsed_seconds": 144.99416732788086
+  }
+}

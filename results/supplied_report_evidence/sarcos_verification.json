@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "training_runs": 35,
+  "source_metrics_replayed_from_predictions": true,
+  "all_source_shapes": [
+    4449
+  ],
+  "paired_target_sha256": "1b21a620b1c395c0cc85638fa86ce6df026e55c8ec4e668312a058db5d5c7675",
+  "four_cell_identities_verified": true,
+  "expected_expert_checkpoints": 15,
+  "active_expert_counts": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "bootstrap": "1000 percentile crossed seed/source resamples; joints and noise draws averaged first",
+  "primary": {
+    "condition": "noise_0.25",
+    "configuration": "moe_consistency-minus-moe_augmentation",
+    "metric": "mse",
+    "mean": 5.634923882541341e-05,
+    "ci_low": -0.0009275424779691424,
+    "ci_high": 0.0014026394903337218,
+    "seed_values": [
+      0.0023532796095096105,
+      -0.00033497325280619803,
+      -0.0006929277211521673,
+      -0.0011624334176604907,
+      0.00011880097623631249
+    ],
+    "training_seeds": 5,
+    "source_records": 4449,
+    "joints_per_source": 7,
+    "perturbation_draws": 3,
+    "primary": true
+  },
+  "analysis_source_sha256": "1fa1f7de8f862890e18552f8f3f22235a5e35cf594f85fba5d9882ea966f4fa6"
+}

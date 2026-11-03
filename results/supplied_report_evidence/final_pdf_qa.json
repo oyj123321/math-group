@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "pages": 9,
+  "overview_on_page_1": true,
+  "only_requested_audit_fixes_1_to_4": true,
+  "experimental_tables_and_results_unchanged": true,
+  "geiger_reference_corrected": true,
+  "figure_label_sample_min_pt": 7.16,
+  "no_overfull_boxes": true,
+  "no_unresolved_references": true
+}

@@ -1,0 +1,46 @@
+{
+  "archive_sha256": "716f7dc34d90fe9b458b35b009d4e675f1c61a0a91e0037fc6c9c152b892e852",
+  "source_sha256": "36c50ef0f827f5e819839d5a8868ead76a161e809d49948abf0e673cf98800a2",
+  "completed_runs": [
+    {
+      "profile": "independent",
+      "seed": 0
+    },
+    {
+      "profile": "independent",
+      "seed": 1
+    },
+    {
+      "profile": "independent",
+      "seed": 2
+    },
+    {
+      "profile": "independent",
+      "seed": 3
+    },
+    {
+      "profile": "independent",
+      "seed": 4
+    },
+    {
+      "profile": "shortcut",
+      "seed": 0
+    },
+    {
+      "profile": "shortcut",
+      "seed": 1
+    },
+    {
+      "profile": "shortcut",
+      "seed": 2
+    },
+    {
+      "profile": "shortcut",
+      "seed": 3
+    },
+    {
+      "profile": "shortcut",
+      "seed": 4
+    }
+  ]
+}

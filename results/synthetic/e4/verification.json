@@ -1,0 +1,49 @@
+{
+  "archive_sha256": "f32ae72391f048fb4606234c5b647b152846a6f4dc8bc131edd828db34ba6a83",
+  "source_sha256": {
+    "e4.py": "be2c96fb00cfe14329a0db02ae5fe5485a99611bccdd537fef575c46956acacc",
+    "run.py": "36c50ef0f827f5e819839d5a8868ead76a161e809d49948abf0e673cf98800a2"
+  },
+  "completed_runs": [
+    {
+      "profile": "independent",
+      "seed": 0
+    },
+    {
+      "profile": "independent",
+      "seed": 1
+    },
+    {
+      "profile": "independent",
+      "seed": 2
+    },
+    {
+      "profile": "independent",
+      "seed": 3
+    },
+    {
+      "profile": "independent",
+      "seed": 4
+    },
+    {
+      "profile": "shortcut",
+      "seed": 0
+    },
+    {
+      "profile": "shortcut",
+      "seed": 1
+    },
+    {
+      "profile": "shortcut",
+      "seed": 2
+    },
+    {
+      "profile": "shortcut",
+      "seed": 3
+    },
+    {
+      "profile": "shortcut",
+      "seed": 4
+    }
+  ]
+}

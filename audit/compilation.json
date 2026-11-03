@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "engine": "Tectonic 0.17.0 / XeTeX + BibTeX",
+  "pdfs": {
+    "English": {
+      "pages": 13,
+      "tables": 7,
+      "figures": 4,
+      "native_display_equations": 15,
+      "references": 14
+    },
+    "Chinese": {
+      "pages": 12,
+      "tables": 7,
+      "figures": 4,
+      "native_display_equations": 15,
+      "references": 14
+    }
+  },
+  "overfull_boxes": false,
+  "missing_characters": false,
+  "unresolved_citations": false
+}

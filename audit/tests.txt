@@ -1,0 +1,20 @@
+test_kl_direction_gradients_and_identity (test_e4.E4Checks) ... ok
+test_noise_scope_and_replay (test_e4.E4Checks) ... ok
+test_zero_weight_matches_augmentation (test_e4.E4Checks) ... ok
+test_crossed_amplitude_is_cached_scalar (test_factorial.FactorialChecks) ... ok
+test_signed_factorial_algebra (test_factorial.FactorialChecks) ... ok
+test_unchanged_input_collapses_cells (test_factorial.FactorialChecks) ... ok
+test_corruption_scope (test_invariants.Invariants) ... ok
+test_new_controls (test_invariants.Invariants) ... ok
+test_repeatable_and_disjoint (test_invariants.Invariants) ... ok
+test_routing_intervention_and_gradients (test_invariants.Invariants) ... ok
+test_bayes_boundaries (test_statistics.Statistics) ... ok
+test_bayes_population_risk (test_statistics.Statistics) ... ok
+test_constant_and_paired_zero (test_statistics.Statistics) ... ok
+test_invalid_input (test_statistics.Statistics) ... ok
+test_sign_and_seed_uncertainty (test_statistics.Statistics) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 2.476s
+
+OK

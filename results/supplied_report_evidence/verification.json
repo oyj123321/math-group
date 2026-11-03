@@ -1,0 +1,7 @@
+{
+  "raw_comparisons_passed": 40,
+  "raw_prediction_decompositions": "passed",
+  "compact_source_and_analysis_hashes": "passed",
+  "baseline_clean_bootstrap_seed": 20261027,
+  "baseline_clean_bootstrap_draws": 1000
+}

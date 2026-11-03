@@ -1,0 +1,242 @@
+[
+  {
+    "profile": "independent",
+    "condition": "Clean",
+    "model": "moe",
+    "mean": 0.0006984798863849713,
+    "ci_low": 0.00040228810057968753,
+    "ci_high": 0.0011090657291242883
+  },
+  {
+    "profile": "independent",
+    "condition": "Clean",
+    "model": "dense_active",
+    "mean": 0.0006360408301976327,
+    "ci_low": 0.00035286244770417247,
+    "ci_high": 0.0010876118661203135
+  },
+  {
+    "profile": "independent",
+    "condition": "Clean",
+    "model": "dense_total",
+    "mean": 0.0005396948843833073,
+    "ci_low": 0.00029290394636499105,
+    "ci_high": 0.0009422435331091748
+  },
+  {
+    "profile": "independent",
+    "condition": "Noise, SD 1",
+    "model": "moe",
+    "mean": 0.0008381593636126245,
+    "ci_low": 0.0005003807035981897,
+    "ci_high": 0.0012869134958762643
+  },
+  {
+    "profile": "independent",
+    "condition": "Noise, SD 1",
+    "model": "dense_active",
+    "mean": 0.0006901403573476141,
+    "ci_low": 0.00040413010679637464,
+    "ci_high": 0.0011437366294815329
+  },
+  {
+    "profile": "independent",
+    "condition": "Noise, SD 1",
+    "model": "dense_total",
+    "mean": 0.000595908464661111,
+    "ci_low": 0.00034255374713251633,
+    "ci_high": 0.0010217843946222892
+  },
+  {
+    "profile": "independent",
+    "condition": "Shift, +1",
+    "model": "moe",
+    "mean": 0.0008485724351920895,
+    "ci_low": 0.000527183255297061,
+    "ci_high": 0.0013096137474773023
+  },
+  {
+    "profile": "independent",
+    "condition": "Shift, +1",
+    "model": "dense_active",
+    "mean": 0.000670539117371905,
+    "ci_low": 0.00038379174782900437,
+    "ci_high": 0.00113839923701496
+  },
+  {
+    "profile": "independent",
+    "condition": "Shift, +1",
+    "model": "dense_total",
+    "mean": 0.0006099708561487156,
+    "ci_low": 0.00035272327476896793,
+    "ci_high": 0.0010663442168656926
+  },
+  {
+    "profile": "independent",
+    "condition": "Mask, 25%",
+    "model": "moe",
+    "mean": 0.3228636975243494,
+    "ci_low": 0.31465384495669596,
+    "ci_high": 0.33174079412682833
+  },
+  {
+    "profile": "independent",
+    "condition": "Mask, 25%",
+    "model": "dense_active",
+    "mean": 0.3227647347237261,
+    "ci_low": 0.3147317431127374,
+    "ci_high": 0.331656338242255
+  },
+  {
+    "profile": "independent",
+    "condition": "Mask, 25%",
+    "model": "dense_total",
+    "mean": 0.3228704679117492,
+    "ci_low": 0.31472914639257055,
+    "ci_high": 0.33175651990960253
+  },
+  {
+    "profile": "independent",
+    "condition": "Cue removal, 50%",
+    "model": "moe",
+    "mean": 0.4325992218433578,
+    "ci_low": 0.38690087642842436,
+    "ci_high": 0.4857490391484646
+  },
+  {
+    "profile": "independent",
+    "condition": "Cue removal, 50%",
+    "model": "dense_active",
+    "mean": 0.40090140578897193,
+    "ci_low": 0.37751298364517366,
+    "ci_high": 0.42837449205413775
+  },
+  {
+    "profile": "independent",
+    "condition": "Cue removal, 50%",
+    "model": "dense_total",
+    "mean": 0.34983634486126647,
+    "ci_low": 0.3347119175028326,
+    "ci_high": 0.3649234113604104
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Clean",
+    "model": "moe",
+    "mean": 0.0007475160037470758,
+    "ci_low": 0.0004231615535544235,
+    "ci_high": 0.0014310883405532458
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Clean",
+    "model": "dense_active",
+    "mean": 0.0008395199659798052,
+    "ci_low": 0.0005489317957424418,
+    "ci_high": 0.0013406338226297928
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Clean",
+    "model": "dense_total",
+    "mean": 0.0007584702001521228,
+    "ci_low": 0.0004545500812648991,
+    "ci_high": 0.001245120586940332
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Noise, SD 1",
+    "model": "moe",
+    "mean": 0.001261908423881466,
+    "ci_low": 0.0008157135623977608,
+    "ci_high": 0.002003426011927339
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Noise, SD 1",
+    "model": "dense_active",
+    "mean": 0.0010752198401985265,
+    "ci_low": 0.0007502423793686729,
+    "ci_high": 0.0015931381184714204
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Noise, SD 1",
+    "model": "dense_total",
+    "mean": 0.0009554365408595307,
+    "ci_low": 0.0006151237378778593,
+    "ci_high": 0.001509300328368037
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Shift, +1",
+    "model": "moe",
+    "mean": 0.0007514328077485905,
+    "ci_low": 0.00042523642394043463,
+    "ci_high": 0.0015152902103854411
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Shift, +1",
+    "model": "dense_active",
+    "mean": 0.0008022138726835515,
+    "ci_low": 0.0005098916439370329,
+    "ci_high": 0.001370497725186436
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Shift, +1",
+    "model": "dense_total",
+    "mean": 0.0008130829190041485,
+    "ci_low": 0.0005046180662828153,
+    "ci_high": 0.0013680679399356102
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Mask, 25%",
+    "model": "moe",
+    "mean": 0.3228515221344079,
+    "ci_low": 0.314734379301177,
+    "ci_high": 0.3316434510891369
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Mask, 25%",
+    "model": "dense_active",
+    "mean": 0.323029249595739,
+    "ci_low": 0.31491519127035045,
+    "ci_high": 0.33193949849387855
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Mask, 25%",
+    "model": "dense_total",
+    "mean": 0.32285555143173295,
+    "ci_low": 0.31472180913973813,
+    "ci_high": 0.33175076449733093
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Cue removal, 50%",
+    "model": "moe",
+    "mean": 0.47560863002665565,
+    "ci_low": 0.42081077596917016,
+    "ci_high": 0.5291136111524939
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Cue removal, 50%",
+    "model": "dense_active",
+    "mean": 0.3830319973266402,
+    "ci_low": 0.36349680672642704,
+    "ci_high": 0.4009216974444982
+  },
+  {
+    "profile": "shortcut",
+    "condition": "Cue removal, 50%",
+    "model": "dense_total",
+    "mean": 0.3490459004324887,
+    "ci_low": 0.33586511715506884,
+    "ci_high": 0.36165253757158755
+  }
+]

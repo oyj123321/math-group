@@ -1,0 +1,12 @@
+{
+  "training_runs": 30,
+  "profiles": 2,
+  "seeds": 5,
+  "draws": 1000,
+  "interval": "pointwise paired crossed bootstrap, conditional on shared fixed training data",
+  "primary": "consistency minus augmentation MSE, nuisance noise SD 1, separately by profile",
+  "frozen_kl": 0.1,
+  "training_noise_sd": 0.5,
+  "selection": "minimum clean validation MSE",
+  "degradation_difference": "Exploratory diagnostic added after scalar-mean inspection; not a primary endpoint."
+}

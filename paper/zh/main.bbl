@@ -1,0 +1,127 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chen et~al.(2022)Chen, Deng, Wu, Gu, and Li]{chen2022}
+Zixiang Chen, Yihe Deng, Yue Wu, Quanquan Gu, and Yuanzhi Li.
+\newblock {Towards Understanding the Mixture-of-Experts Layer in Deep
+  Learning}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~35, 2022.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2022/hash/91edff07232fb1b55a505a9e9f6c0ff3-Abstract-Conference.html}.
+
+\bibitem[Fedus et~al.(2022)Fedus, Zoph, and Shazeer]{fedus2022}
+William Fedus, Barret Zoph, and Noam Shazeer.
+\newblock {Switch Transformers: Scaling to Trillion Parameter Models with
+  Simple and Efficient Sparsity}.
+\newblock \emph{Journal of Machine Learning Research}, 23\penalty0
+  (120):\penalty0 1--39, 2022.
+\newblock URL \url{https://www.jmlr.org/papers/v23/21-0998.html}.
+
+\bibitem[Geiger et~al.(2021)Geiger, Lu, Icard, and Potts]{geiger2021}
+Atticus Geiger, Hanson Lu, Thomas Icard, and Christopher Potts.
+\newblock {Causal Abstractions of Neural Networks}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~34, 2021.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2021/hash/4f5c422f4d49a5a807eda27434231040-Abstract.html}.
+
+\bibitem[Lepikhin et~al.(2021)Lepikhin, Lee, Xu, Chen, Firat, Huang, Krikun,
+  Shazeer, and Chen]{lepikhin2021}
+Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping
+  Huang, Maxim Krikun, Noam Shazeer, and Zhifeng Chen.
+\newblock {GShard: Scaling Giant Models with Conditional Computation and
+  Automatic Sharding}.
+\newblock In \emph{International Conference on Learning Representations}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2006.16668}.
+
+\bibitem[Lewis et~al.(2021)Lewis, Bhosale, Dettmers, Goyal, and
+  Zettlemoyer]{lewis2021}
+Mike Lewis, Shruti Bhosale, Tim Dettmers, Naman Goyal, and Luke Zettlemoyer.
+\newblock {BASE Layers: Simplifying Training of Large, Sparse Models}.
+\newblock In \emph{Proceedings of the 38th International Conference on Machine
+  Learning}, volume 139 of \emph{Proceedings of Machine Learning Research},
+  pp.\  6265--6274, 2021.
+\newblock URL \url{https://proceedings.mlr.press/v139/lewis21a.html}.
+
+\bibitem[Pearl(2001)]{pearl2001}
+Judea Pearl.
+\newblock {Direct and Indirect Effects}.
+\newblock In \emph{Proceedings of the Seventeenth Conference on Uncertainty in
+  Artificial Intelligence}, 2001.
+
+\bibitem[Puigcerver et~al.(2022)Puigcerver, Jenatton, Riquelme, Awasthi, and
+  Bhojanapalli]{puigcerver2022}
+Joan Puigcerver, Rodolphe Jenatton, Carlos Riquelme, Pranjal Awasthi, and
+  Srinadh Bhojanapalli.
+\newblock {On the Adversarial Robustness of Mixture of Experts}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~35, 2022.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2022/hash/3effb91593c4fb42b1da1528328eff49-Abstract-Conference.html}.
+
+\bibitem[Qiu et~al.(2025)Qiu, Huang, Zheng, Wen, Wang, Men, Titov, Liu, Zhou,
+  and Lin]{qiu2025}
+Zihan Qiu, Zeyu Huang, Bo~Zheng, Kaiyue Wen, Zekun Wang, Rui Men, Ivan Titov,
+  Dayiheng Liu, Jingren Zhou, and Junyang Lin.
+\newblock {Demons in the Detail: On Implementing Load Balancing Loss for
+  Training Specialized Mixture-of-Expert Models}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, 2025.
+\newblock URL \url{https://aclanthology.org/2025.acl-long.249/}.
+
+\bibitem[Riquelme et~al.(2021)Riquelme, Puigcerver, Mustafa, Neumann, Jenatton,
+  Pinto, Keysers, and Houlsby]{riquelme2021}
+Carlos Riquelme, Joan Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe
+  Jenatton, Andr{\'e}~Susano Pinto, Daniel Keysers, and Neil Houlsby.
+\newblock {Scaling Vision with Sparse Mixture of Experts}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~34, 2021.
+\newblock URL \url{https://arxiv.org/abs/2106.05974}.
+
+\bibitem[Roller et~al.(2021)Roller, Sukhbaatar, Szlam, and Weston]{roller2021}
+Stephen Roller, Sainbayar Sukhbaatar, Arthur Szlam, and Jason Weston.
+\newblock {Hash Layers for Large Sparse Models}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~34, 2021.
+\newblock URL \url{https://arxiv.org/abs/2106.04426}.
+
+\bibitem[Shazeer et~al.(2017)Shazeer, Mirhoseini, Maziarz, Davis, Le, Hinton,
+  and Dean]{shazeer2017}
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le,
+  Geoffrey Hinton, and Jeff Dean.
+\newblock {Outrageously Large Neural Networks: The Sparsely-Gated
+  Mixture-of-Experts Layer}.
+\newblock In \emph{International Conference on Learning Representations}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1701.06538}.
+
+\bibitem[Vijayakumar et~al.(2005)Vijayakumar, D'Souza, and
+  Schaal]{vijayakumar2005}
+Sethu Vijayakumar, Aaron D'Souza, and Stefan Schaal.
+\newblock {Incremental Online Learning in High Dimensions}.
+\newblock \emph{Neural Computation}, 17\penalty0 (12):\penalty0 2602--2634,
+  2005.
+\newblock \doi{10.1162/089976605774320557}.
+
+\bibitem[Zhou et~al.(2022)Zhou, Lei, Liu, Du, Huang, Zhao, Dai, Chen, Le, and
+  Laudon]{zhou2022}
+Yanqi Zhou, Tao Lei, Hanxiao Liu, Nan Du, Yanping Huang, Vincent Zhao, Andrew
+  Dai, Zhifeng Chen, Quoc Le, and James Laudon.
+\newblock {Mixture-of-Experts with Expert Choice Routing}.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~35, 2022.
+\newblock URL \url{https://arxiv.org/abs/2202.09368}.
+
+\bibitem[Zoph et~al.(2022)Zoph, Bello, Kumar, Du, Huang, Dean, Shazeer, and
+  Fedus]{zoph2022}
+Barret Zoph, Irwan Bello, Sameer Kumar, Nan Du, Yanping Huang, Jeff Dean, Noam
+  Shazeer, and William Fedus.
+\newblock {ST-MoE: Designing Stable and Transferable Sparse Expert Models}.
+\newblock arXiv preprint arXiv:2202.08906, 2022.
+\newblock URL \url{https://arxiv.org/abs/2202.08906}.
+
+\end{thebibliography}

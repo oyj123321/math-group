@@ -1,0 +1,88 @@
+{
+  "gpu": "NVIDIA A800-SXM4-80GB",
+  "torch": "2.6.0+cu124",
+  "numpy": "1.26.4",
+  "platform": "Linux-5.15.0-60-generic-x86_64-with-glibc2.35",
+  "source_training_sha256": "36c50ef0f827f5e819839d5a8868ead76a161e809d49948abf0e673cf98800a2",
+  "rows": [
+    {
+      "model": "moe",
+      "batch": 1,
+      "repeats": 30,
+      "wall_median_ms": 0.548146665096283,
+      "gpu_event_median_ms": 0.5258240103721619,
+      "wall_min_ms": 0.5434062331914902,
+      "wall_max_ms": 0.6529344245791435,
+      "peak_allocated_MiB": 9.45849609375,
+      "parameters": 85640,
+      "active_linear_macs_per_item": 24192
+    },
+    {
+      "model": "moe",
+      "batch": 1024,
+      "repeats": 30,
+      "wall_median_ms": 1.1934158392250538,
+      "gpu_event_median_ms": 1.1709439754486084,
+      "wall_min_ms": 1.1861147359013557,
+      "wall_max_ms": 1.2293616309762,
+      "peak_allocated_MiB": 10.0791015625,
+      "parameters": 85640,
+      "active_linear_macs_per_item": 24192
+    },
+    {
+      "model": "dense_active",
+      "batch": 1,
+      "repeats": 30,
+      "wall_median_ms": 0.14469632878899574,
+      "gpu_event_median_ms": 0.12492799758911133,
+      "wall_min_ms": 0.14214683324098587,
+      "wall_max_ms": 0.17139408737421036,
+      "peak_allocated_MiB": 9.22314453125,
+      "parameters": 24477,
+      "active_linear_macs_per_item": 24192
+    },
+    {
+      "model": "dense_active",
+      "batch": 1024,
+      "repeats": 30,
+      "wall_median_ms": 0.14443742111325264,
+      "gpu_event_median_ms": 0.12492799758911133,
+      "wall_min_ms": 0.14239083975553513,
+      "wall_max_ms": 0.16333907842636108,
+      "peak_allocated_MiB": 10.439453125,
+      "parameters": 24477,
+      "active_linear_macs_per_item": 24192
+    },
+    {
+      "model": "dense_total",
+      "batch": 1,
+      "repeats": 30,
+      "wall_median_ms": 0.1462879590690136,
+      "gpu_event_median_ms": 0.12595200538635254,
+      "wall_min_ms": 0.14480296522378922,
+      "wall_max_ms": 0.17001666128635406,
+      "peak_allocated_MiB": 9.4560546875,
+      "parameters": 85639,
+      "active_linear_macs_per_item": 85049
+    },
+    {
+      "model": "dense_total",
+      "batch": 1024,
+      "repeats": 30,
+      "wall_median_ms": 0.14482345432043076,
+      "gpu_event_median_ms": 0.12492799758911133,
+      "wall_min_ms": 0.14290399849414825,
+      "wall_max_ms": 0.16628019511699677,
+      "peak_allocated_MiB": 11.86328125,
+      "parameters": 85639,
+      "active_linear_macs_per_item": 85049
+    }
+  ],
+  "limitations": [
+    "one checkpoint per architecture, one profiling session",
+    "batch 1 contains task regime 0; batch 1024 is balanced across regimes",
+    "times include synchronization/dispatch; no data transfer or loading",
+    "peak allocated is PyTorch allocation, not complete driver/context memory",
+    "shared server CPU load was not controlled"
+  ]
+}

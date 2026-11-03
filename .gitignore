@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+raw/
+runs/
+reproduced/
+*.pt
+*.npz
+*.aux
+*.log
+*.out
+*.blg
+*.synctex.gz

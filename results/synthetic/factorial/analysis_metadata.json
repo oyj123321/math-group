@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-20",
+  "status": "exploratory follow-up after E4",
+  "models": 30,
+  "training_runs": 0,
+  "draws": 1000,
+  "interval": "pointwise paired crossed bootstrap of 5 seeds and 20000 sources; average 3 perturbation draws within source first",
+  "sign": "Positive restoration contrast favors restoration; signed effects and interactions are retained.",
+  "warning": "Privileged route components; off-support crossed cells; not unique causal attribution; no CPU/GPU cell mixing."
+}

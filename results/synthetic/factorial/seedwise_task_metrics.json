@@ -1,0 +1,9602 @@
+[
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 0,
+    "value": 0.00030746477141542234
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0002974707741293285
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0001688651836766769
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00046650660022677794
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00025612425086400306
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 0,
+    "value": 0.00029716771473641115
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 1,
+    "value": 0.00045702348872124184
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00027880232531811287
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 3,
+    "value": 0.00047216946025552
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 4,
+    "value": 0.00040745811039691093
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0018951544918487636
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 1,
+    "value": 0.002279875566584984
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0027012169756442483
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 3,
+    "value": 0.002496619778026721
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0017850139876212066
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0005036552864519655
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0006118477696118407
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0004099760525444017
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0006604962648894886
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0020292207800158076
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0002850662477701798
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0002801980511517339
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0001396988612013504
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0003073222663904359
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0002286853044980072
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 0,
+    "value": 0.00027169996871918427
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0004630098852246922
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0002618856193665203
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0003509712996896315
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0003995860344312425
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0019641985538069854
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0023271958904948846
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0027506687603975266
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0024027691064636278
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0017967250379739249
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0004893862823577284
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0006014581487349387
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0003837933115759832
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00045783598029068155
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 4,
+    "value": 0.001999127259451414
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 0,
+    "value": 0.00030807916581704396
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0003045976280074712
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0001691842726639893
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00047653205961988086
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0002559444700096166
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0003068287235167128
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0005484094967492842
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0002775302964013397
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 3,
+    "value": 0.00047545823336046756
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0004034515067989357
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 0,
+    "value": 0.001878869474721909
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 1,
+    "value": 0.002273286776066424
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0027087570439801915
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0022282617911881203
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0017861157039685636
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 0,
+    "value": 0.00048763803644000545
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0005966346297470465
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 2,
+    "value": 0.000412159804085512
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0006597481078925526
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0020613308649824183
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0002854924679422397
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 1,
+    "value": 0.00028582159242317227
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0001388434884235803
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00031460945990951735
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00022862460882897944
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0002808845844415786
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0005526355980350354
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0002616929422972335
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 3,
+    "value": 0.00035418973252254445
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0003947964667979714
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0019476501195920168
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0023177921801575702
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0027597088234560772
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0021289717845675636
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0017993311601540146
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0004728827217641955
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0005858238233232011
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 2,
+    "value": 0.00038518804978122413
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00045654313331248606
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 4,
+    "value": 0.002032238178765469
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 0,
+    "value": 4.262201720599419e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 1,
+    "value": 5.623541271438359e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 2,
+    "value": -8.553727777701036e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 7.2871935190813865e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -6.069566902774534e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 9.184615722394368e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 1,
+    "value": 8.962571281034315e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -1.9267706928677125e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 3,
+    "value": 3.2184328329129165e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 4,
+    "value": -4.789567633271039e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 0,
+    "value": -1.6548434214968792e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 1,
+    "value": -9.403710337314447e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 9.040063058550846e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 3,
+    "value": -0.0002737973218960634
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 2.606122180090038e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -1.6503560593532916e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -1.563432541173757e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 2,
+    "value": 1.3947382052409239e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -1.2928469781955167e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 4,
+    "value": 3.311091931405455e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -2.2586697874804247e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -1.877603558429892e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 2,
+    "value": -3.0340784240409003e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 3,
+    "value": -0.00016192259971036348
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -2.7319861180637134e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 0,
+    "value": -2.5944139075134155e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 1,
+    "value": 4.22610128575118e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -1.583735410410621e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -0.00012126850083792305
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 4,
+    "value": -8.655040000964388e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 6.878064487010773e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 4.450540409114643e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 5.0951779475885226e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 3,
+    "value": -9.929000662055643e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 1.3215456185451035e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -1.475531467580987e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -1.0810806423845356e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -2.6971754304287874e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -0.0002032049745800666
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 4,
+    "value": -2.909268621694948e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -2.1972303473182635e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -1.1649181706156225e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 2,
+    "value": -3.002169525309661e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 3,
+    "value": -0.0001518971403172606
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -2.7499642035023608e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 0,
+    "value": -1.6283130294832527e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 1,
+    "value": 9.561210931379356e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -1.7109383020879324e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -0.00011797972773297549
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 4,
+    "value": -1.2661643598939584e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 5.249562774325345e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 3.791661357258658e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 5.8491847811829055e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 3,
+    "value": -0.0003676479934591569
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 1.4317172532808175e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -3.0772564687770105e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -2.6023946288639466e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -2.4788002763177593e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -0.00020395313157700262
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 4,
+    "value": 3.0173987496613414e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 0,
+    "value": -1.8817422956167058e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 1,
+    "value": -1.5033126067043346e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 2,
+    "value": -1.1744617650824926e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 3,
+    "value": -2.738265874021521e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 4,
+    "value": 1.190851853587351e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 0,
+    "value": -4.7639305790725515e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 1,
+    "value": -1.7602952176992427e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 2,
+    "value": 1.0793518474863385e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 3,
+    "value": -7.034027203463274e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 4,
+    "value": -7.829640352958417e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 0,
+    "value": -2.6341708811450984e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 1,
+    "value": -2.814919818754587e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 2,
+    "value": 1.4999947226070276e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 3,
+    "value": -5.439335057462812e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 4,
+    "value": 1.5044058327328903e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 0,
+    "value": -4.863105815726821e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 1,
+    "value": -4.2118554694345697e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 2,
+    "value": -7.890133358693617e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 3,
+    "value": -5.446899812594833e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 4,
+    "value": 1.00083434744373e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 0,
+    "value": 0.018999999999999996
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 1,
+    "value": 0.04993333333333332
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0276
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 3,
+    "value": 0.03846666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 4,
+    "value": 0.012666666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0396
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 1,
+    "value": 0.031266666666666665
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 2,
+    "value": 0.03633333333333333
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 3,
+    "value": 0.035533333333333326
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0218
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0028666666666666662
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0206
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 2,
+    "value": 0.009
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 3,
+    "value": 6.666666666666666e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 4,
+    "value": 0.018466666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 0,
+    "value": 0.024266666666666662
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 1,
+    "value": 0.07799999999999999
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0448
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 3,
+    "value": 0.042333333333333334
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 4,
+    "value": 0.023133333333333332
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 0,
+    "value": 0.001386998959382375
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0014478055993715922
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 2,
+    "value": 0.001899633995691935
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 3,
+    "value": 0.004505615299940109
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 4,
+    "value": 0.001399624623854955
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 0,
+    "value": 0.001402392001946767
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0013719878594080609
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0014037177522977192
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 3,
+    "value": 0.004329462063312531
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0012536544382572175
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0029122211833794913
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0023035453180472055
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 2,
+    "value": 0.002268095997969309
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 3,
+    "value": 0.006335354610284169
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 4,
+    "value": 0.002553919525941213
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0013581584890683491
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 1,
+    "value": 0.001353824307521184
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0015310096283753711
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00430741089185079
+  },
+  {
+    "profile": "independent",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 4,
+    "value": 0.001320430286725362
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0003072814252762239
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 1,
+    "value": 0.00010186438877375925
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 2,
+    "value": 0.00019229776387343664
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00040064798035717767
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00030381109044516017
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0003270715482525589
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 1,
+    "value": 0.00019371530713668228
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00018497742476897093
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0006568576671916684
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0002778384154462525
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 0,
+    "value": 0.00218671933467783
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0015098803944725272
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0030855962849537784
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 3,
+    "value": 0.001030236139345832
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0017615202701064235
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0004565243019796874
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0002430544368994539
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 2,
+    "value": 0.00048279573458201604
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00040756368978047173
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0007757977050503912
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0002540936033686268
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 1,
+    "value": 8.209925815719267e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 2,
+    "value": 0.00018310919560758605
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0003452868579332609
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0003041862620318625
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0003207024602914367
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 1,
+    "value": 0.00018380229149700966
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00018235000731413683
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0006193640678180011
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 4,
+    "value": 0.00025308096282160476
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 0,
+    "value": 0.002214672622907642
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0014808099490587307
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 2,
+    "value": 0.003160642244927258
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0010388895260265007
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0017184489304589976
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0004279080122180554
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 1,
+    "value": 0.00021607709617053165
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0004611500475798049
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00031662794832277636
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0007596602448710401
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0003116292091480229
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 1,
+    "value": 0.00010363576508259609
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 2,
+    "value": 0.00020827293828846357
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0005337218865799414
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00041692266127500916
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 0,
+    "value": 0.00033213925071711115
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 1,
+    "value": 0.00021505707584267442
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00018291971613339103
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0006877510616901915
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 4,
+    "value": 0.00028079082660308904
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 0,
+    "value": 0.002189070593897131
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 1,
+    "value": 0.002061298066517427
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0030880854775838682
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 3,
+    "value": 0.001030236139345832
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0017681213612639214
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0004577021150811982
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 1,
+    "value": 0.00024353428010632548
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 2,
+    "value": 0.00046844774459471096
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00041712282688956774
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0011164868212047918
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0002588028805953202
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 1,
+    "value": 8.393820934255366e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0002006118116936722
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00047863366232971317
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0004171358018653353
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 0,
+    "value": 0.00032258754849234935
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 1,
+    "value": 0.00020465231373884146
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00018031449342780206
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0006468242371100606
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0002550604744730464
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0022174995166707396
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 1,
+    "value": 0.002033602325403796
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 2,
+    "value": 0.003163761838431277
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0010388895260265007
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0017221328294832674
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0004290556465789481
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 1,
+    "value": 0.00021606705202786936
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 2,
+    "value": 0.00044773775360709624
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0003252218094196694
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0011019295530428845
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 0,
+    "value": 4.70927722669344e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 1,
+    "value": 1.8389511853609819e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 2,
+    "value": 1.7502616086086138e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00013334680439645223
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00011294953983347282
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 1.8850882009126684e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 1,
+    "value": 2.085002224183179e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -2.035513886334747e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 3,
+    "value": 2.7460169292059617e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 1.9795116514416166e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 2.8268937630972228e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0005527923763450654
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 3.1195935040183975e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 3.6838990242701902e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 0,
+    "value": 1.1476343608926687e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -1.0044142662284615e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -1.3412293972708724e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 3,
+    "value": 8.593861096892979e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 4,
+    "value": 0.00034226930817184435
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -5.282632855270268e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -1.9697555740042447e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 2,
+    "value": -7.66112659479136e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 3,
+    "value": -5.508822425022836e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 4,
+    "value": 2.131405903261812e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 0,
+    "value": -9.551702224761832e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -1.0404762103832977e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -2.605222705588966e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -4.092682458013083e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 4,
+    "value": -2.5730352130042643e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 2.8428922773608857e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 1,
+    "value": -2.769574111363135e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 7.567636084740839e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 8.653386680668605e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 4,
+    "value": -4.5988531780654004e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -2.8646468502250043e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -2.7467228078456095e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -2.07099909876148e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -9.190101746989838e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 4,
+    "value": -1.4557268161907066e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -4.847854468090365e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -1.7926179431205595e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 2,
+    "value": 8.314047820235577e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 7.798568197253555e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0001133247114201751
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 0,
+    "value": -4.483999760209571e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 1,
+    "value": 1.0937006602159156e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -4.6629313411688644e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -1.0033430081607742e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 4,
+    "value": -2.2777940973206094e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 3.078018199290969e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0005237219309312684
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 7.816555347749747e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 8.653386680668605e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 4,
+    "value": -3.938744062315582e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -2.7468655400739274e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -2.6987384871584595e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -3.5057980974919846e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -8.234188036080227e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0003261318479924934
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 0,
+    "value": 3.614933548944002e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 1,
+    "value": 6.757487652413313e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 2,
+    "value": 1.5274416710592017e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 3,
+    "value": 2.7289817368840443e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 4,
+    "value": -1.6203099637608362e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 0,
+    "value": -3.1826142636395925e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 1,
+    "value": -4.917464641603376e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 2,
+    "value": 2.219474924514904e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 3,
+    "value": -3.4332252064634708e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 4,
+    "value": -9.728995053949342e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 0,
+    "value": 4.756345437963872e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 1,
+    "value": 1.3747043001655995e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 2,
+    "value": 6.3040087392932e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 3,
+    "value": -9.567237139237322e-23
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 4,
+    "value": -2.917192133227986e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 0,
+    "value": -3.017874061810304e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 1,
+    "value": -4.898873495337843e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 2,
+    "value": 9.356960145963267e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 3,
+    "value": -9.652760122031273e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 4,
+    "value": 1.5801920174440207e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 0,
+    "value": 0.037
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0136
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 2,
+    "value": 0.028333333333333332
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 3,
+    "value": 0.035866666666666665
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 4,
+    "value": 0.010066666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0354
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0376
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0294
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 3,
+    "value": 0.028066666666666663
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 4,
+    "value": 0.026866666666666664
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 0,
+    "value": 0.02393333333333333
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0006666666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0052
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 4,
+    "value": 0.02513333333333333
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 0,
+    "value": 0.016466666666666664
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 1,
+    "value": 0.04013333333333333
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0264
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 3,
+    "value": 0.03173333333333333
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 4,
+    "value": 0.008933333333333333
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0023187710642814637
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0012374417920907339
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 2,
+    "value": 0.001086343256632487
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0029766959110895793
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0016069669266541799
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0009403382897377014
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0012529235343138377
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0009850076019763947
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 3,
+    "value": 0.003095551977554957
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 4,
+    "value": 0.002364290755987167
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 0,
+    "value": 0.003121962906916936
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 1,
+    "value": 0.002054540240764618
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0014225702246030171
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0032691265503565466
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0035039979358514146
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0008905326147874197
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 1,
+    "value": 0.001228231732050578
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0011256703913211823
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0031578576147556305
+  },
+  {
+    "profile": "independent",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0016192270576953888
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 0,
+    "value": 0.00013690445162805362
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 1,
+    "value": 0.00013391866278819066
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0001828736870561478
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00015747204412432144
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00017508220510944634
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 0,
+    "value": 0.00029576467039835115
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0002927308515448124
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00022972575617567293
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 3,
+    "value": 0.00017040313297907942
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 4,
+    "value": 0.00025781148098153465
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 0,
+    "value": 0.002286083786170945
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0018911956409174476
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 2,
+    "value": 0.003108267691172161
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0012364309580955083
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0014023729147519372
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 0,
+    "value": 0.00025321035011005637
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 1,
+    "value": 0.00021833299877011133
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0003140974378653502
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00020619626166933528
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 4,
+    "value": 0.00022767223069820403
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 0,
+    "value": 0.00014484653982451274
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 1,
+    "value": 0.00015092975477832543
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0001694676743435734
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00018711187646073933
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00016071572731994724
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 0,
+    "value": 0.00027675381199304114
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0002840572639181169
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00024607946788475136
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 3,
+    "value": 0.00016475180236579296
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 4,
+    "value": 0.00026048721214035525
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0023137614966317285
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0019186028843113214
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0031484688691906623
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0012827694300167013
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0014099769890697595
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0002751990553443432
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 1,
+    "value": 0.00021976109314327243
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 2,
+    "value": 0.000297464423111735
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0002125440066530264
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 4,
+    "value": 0.00021919711778399002
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0001373770853631445
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 1,
+    "value": 0.00013643783788892322
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 2,
+    "value": 0.00018306585115869306
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00015772776003034736
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00017503510630488225
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 0,
+    "value": 0.00029310859546098324
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0002921572714066636
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0002301792353916528
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 3,
+    "value": 0.00017000434968407314
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0002575396431247107
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 0,
+    "value": 0.002307265642773842
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 1,
+    "value": 0.00187568506641421
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0031087980448183507
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0012670800010306552
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0014045791731429047
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 0,
+    "value": 0.00025375729387710295
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 1,
+    "value": 0.000220062945919792
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 2,
+    "value": 0.00031356940174409793
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0002072198819340027
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0002269663864061119
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 0,
+    "value": 0.00014521265745027817
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0001532394992005511
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0001696369934571918
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00018726012885741545
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0001606743022157076
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0002742846140579585
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 1,
+    "value": 0.00028327561894868694
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0002464026423041757
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 3,
+    "value": 0.00016405701754967683
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 4,
+    "value": 0.00026022961688267776
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0023353118905578172
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0019031828487747213
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 2,
+    "value": 0.003148539213184927
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0013140098061139313
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0014122103715836776
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0002755879387915119
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 1,
+    "value": 0.00022045641068052616
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 2,
+    "value": 0.00029675903982259955
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00021335546128696867
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0002185083281889267
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 0,
+    "value": 3.661176257654343e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 1,
+    "value": 2.3097444222256564e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 2,
+    "value": 1.693191136184003e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 1.4825239667611631e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -4.142510423962304e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 0,
+    "value": -2.469197935082639e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -7.816449694299345e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 2,
+    "value": 3.2317441942435286e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -6.94784816116136e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 4,
+    "value": -2.575952576774175e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 2.1550393926089277e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 1,
+    "value": -1.5420035536600275e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 7.034399426417356e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 3.124037609723018e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 2.233382513918016e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 0,
+    "value": 3.88883447168675e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 1,
+    "value": 6.953175372537308e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -7.053832891354383e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 3,
+    "value": 8.114546339422841e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 4,
+    "value": -6.887895950633595e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 0,
+    "value": 7.83557208713368e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 1,
+    "value": 1.6801661311627848e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 2,
+    "value": -1.3428857701501245e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 2.9532368827068067e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -1.4360804089174594e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 0,
+    "value": -1.8823981403024713e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -8.881652457976676e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 2,
+    "value": 1.6223406912522947e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -5.9473321343962925e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 2.689973757967099e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 2.8046247783974954e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 2.7497782360511358e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 3.9741168366576084e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 4.692980508327622e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 7.631198440772858e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 0,
+    "value": 2.1830644914408944e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 1,
+    "value": 3.9346476073413763e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -1.681036192149837e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 3,
+    "value": 6.135579352965934e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 4,
+    "value": -8.458058217185217e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 0,
+    "value": 8.308205822224565e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 1,
+    "value": 1.9320836412360428e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 2,
+    "value": -1.3236693598955985e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 2.9788084733094012e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -1.4407902893738722e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 0,
+    "value": -2.148005634039264e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -9.455232596125435e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 2,
+    "value": 1.667688612850283e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -6.346115429402571e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 2.4181359011430858e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 4.922810438687193e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 1.1987207857273654e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 4.027152201276598e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 7.757884801842323e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 9.837456831740574e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 0,
+    "value": 2.237758868145546e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 1,
+    "value": 2.1234119104148467e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -1.7338398042750676e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 3,
+    "value": 7.159199617633364e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 4,
+    "value": -9.16390250927737e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 0,
+    "value": -1.0651610932545066e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 1,
+    "value": -2.0943067850692732e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 2,
+    "value": -2.2844988926858057e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 3,
+    "value": -1.074635093498232e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 4,
+    "value": 5.6737003245047885e-09
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 0,
+    "value": 1.8687700228528773e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 1,
+    "value": -2.080648312811774e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 2,
+    "value": -1.3030479655552937e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 3,
+    "value": -2.960015211098581e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 4,
+    "value": 1.4242599146596131e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 0,
+    "value": 3.685373231923012e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 1,
+    "value": 9.053896663742793e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 2,
+    "value": -4.600096519257278e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 3,
+    "value": 5.913331620831741e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 4,
+    "value": 2.712412295030075e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 0,
+    "value": -1.5806031987783995e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 1,
+    "value": -1.0346296124269786e-06
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 2,
+    "value": -1.7734716788313469e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 3,
+    "value": -2.121656307251456e-07
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 4,
+    "value": 1.7054697028791317e-08
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 0,
+    "value": 0.013133333333333332
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 1,
+    "value": 0.05793333333333332
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 2,
+    "value": 0.011466666666666665
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0118
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 4,
+    "value": 0.014333333333333332
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 0,
+    "value": 0.028
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 1,
+    "value": 0.013066666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 2,
+    "value": 0.014733333333333331
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 3,
+    "value": 0.014133333333333331
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0086
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 0,
+    "value": 0.008466666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 1,
+    "value": 0.004866666666666667
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 2,
+    "value": 0.007866666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 3,
+    "value": 6.666666666666666e-05
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0066
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 0,
+    "value": 0.005133333333333333
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 1,
+    "value": 0.04326666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 2,
+    "value": 0.030399999999999993
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0136
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 4,
+    "value": 0.012466666666666666
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0018396559953689575
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0010115903516610461
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0010985904137293498
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0017110738674799598
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 4,
+    "value": 0.000747165318330129
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0012926841894785564
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0009527190585931141
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0011600126326084138
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0017047195235888163
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 4,
+    "value": 0.001596392951409022
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 0,
+    "value": 0.001165531349182129
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 1,
+    "value": 0.001277997754017512
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0017096039732297265
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0020284333626429236
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0010821407496929168
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0019502073645591737
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0008932276368141174
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0009404580175876617
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0017452457507451374
+  },
+  {
+    "profile": "independent",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0006851912359396617
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 0,
+    "value": 0.00032503048165820434
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0004359225770338233
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0008272651125028607
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0005457269509465232
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00048782181740711296
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 0,
+    "value": 0.001129415032138076
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 1,
+    "value": 0.001384497548837529
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0016124725263558183
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0014094174180567065
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0004256074212508548
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0022431496013814024
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0014233258476064536
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0013404896674309426
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 3,
+    "value": 0.001741947968877368
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0045761187791009674
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 0,
+    "value": 0.000925634346569662
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 1,
+    "value": 0.001230160367955458
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0030396890264631988
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0020440769991491013
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M00",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0016561902445996922
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0002537596535687494
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 1,
+    "value": 0.00038687574713602857
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0006270733497804818
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00047469827989816943
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0004161743880156603
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0011365559688469534
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0013308439027204392
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0014730857250924018
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0013855271550216014
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 1,
+    "seed": 4,
+    "value": 0.00043868459704080563
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 0,
+    "value": 0.002279942335338093
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0014919353274937958
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0011734765462417516
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0014366980193697809
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 2,
+    "seed": 4,
+    "value": 0.004720416754711369
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0008232792796819123
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0011529472349502707
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0029148673619711486
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 3,
+    "value": 0.001872989523720862
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M01",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0014994923214409655
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0003799381640083131
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0004624770361078064
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0010100978738049053
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0005470854258205833
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0005003943179941903
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0011383181069527645
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0013757919478618475
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0017411708844654412
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 3,
+    "value": 0.001453719154347793
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 1,
+    "seed": 4,
+    "value": 0.00048196432721637014
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0022431496013814024
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0014233258476064536
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0013404896674309426
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 3,
+    "value": 0.001880129219294094
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 2,
+    "seed": 4,
+    "value": 0.004666742960810817
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0009581303274480927
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 1,
+    "value": 0.001342924479822109
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 2,
+    "value": 0.002427134467008274
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0019907102232855833
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M10",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0019485404150884392
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0003100728890886666
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0004140206219963829
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0008055244583740171
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00047692428797980584
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0004333745962445901
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0011455706145247627
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0013237968714496593
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0016293624419254358
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0014323822344745256
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 1,
+    "seed": 4,
+    "value": 0.000497839359922567
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 0,
+    "value": 0.002279942335338093
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0014919353274937958
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0011734765462417516
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 3,
+    "value": 0.001568492198223363
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 2,
+    "seed": 4,
+    "value": 0.004815672934371206
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 0,
+    "value": 0.000856723286873068
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0012770540165534343
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0022876597841733357
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0018155814709433433
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "M11",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0017995440663639065
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 0,
+    "value": 5.631323551991713e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 1,
+    "value": 2.7144874860354306e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 2,
+    "value": 0.00017845110859353528
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 2.2260080816363516e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 4,
+    "value": 1.720020822892973e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 9.01464567780922e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -7.047031270779954e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0001562767168330337
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 3,
+    "value": 4.6855079452924245e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 5.9154762881761346e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 0.00013179417885358192
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 9.525617965983764e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 0,
+    "value": 3.344400719115582e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 1,
+    "value": 0.00012410678160316361
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -0.0006272075777978131
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -5.740805277751866e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0003000517449229411
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -6.986527491964659e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -4.8456414111423516e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 2,
+    "value": -0.00020457341543088852
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 3,
+    "value": -7.016113784077742e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -6.701972174960007e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 7.252507571998505e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -5.199507641218827e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -0.00011180844254000579
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -2.1336919873267154e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 1.58750327061968e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 3.6792733956691e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 6.860947988734215e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 2,
+    "value": -0.000167013121189191
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 3,
+    "value": -0.00031163702107073166
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 0.00014892997356038946
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -0.00010140704057502458
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -6.58704632686748e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -0.0001394746828349382
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -0.00017512875234224
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 4,
+    "value": -0.0001489963487245324
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -1.4957592569537792e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -2.1901955037440372e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 2,
+    "value": -2.1740654128843704e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 3,
+    "value": -6.880266296671731e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -5.444722116252277e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 1.6155582386686792e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -6.0700677387869665e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 2,
+    "value": 1.6889915569617426e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 3,
+    "value": 2.2964816417819294e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 7.223193867171226e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 3.6792733956691e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 6.860947988734215e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 2,
+    "value": -0.000167013121189191
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 3,
+    "value": -0.00017345577065400514
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 0.00023955415527023938
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -6.891105969659403e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 1,
+    "value": 4.689364859797596e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -0.000752029242289863
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -0.00022849552820575797
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 4,
+    "value": 0.00014335382176421438
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 0,
+    "value": 1.4055531698083494e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 1,
+    "value": 5.904157863711656e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 2,
+    "value": -4.3816527085095215e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 3,
+    "value": 8.675332075762371e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 4,
+    "value": 4.627707641852435e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 0,
+    "value": 1.1157086312092935e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 1,
+    "value": 1.6585697049014386e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 2,
+    "value": 2.757835872341048e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 3,
+    "value": 2.5533431618378028e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 4,
+    "value": 2.7978569162458936e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 0,
+    "value": 2.0631605012746622e-22
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 1,
+    "value": -4.0649111138733873e-22
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 2,
+    "value": 3.8366357345883535e-22
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 3,
+    "value": -6.387071563144603e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 4,
+    "value": 4.631997949987752e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 0,
+    "value": 9.480263127252645e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 1,
+    "value": 1.1342669736512872e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 2,
+    "value": -1.4653018342888455e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 3,
+    "value": -4.041276914000707e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 4,
+    "value": 7.701574434194364e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0434
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 1,
+    "value": 0.02913333333333333
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 2,
+    "value": 0.04766666666666666
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0354
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0334
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 0,
+    "value": 0.030266666666666664
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 1,
+    "value": 0.06813333333333332
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 2,
+    "value": 0.11026666666666665
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0516
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0076
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0001333333333333333
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 4,
+    "value": 0.014666666666666666
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 0,
+    "value": 0.05606666666666666
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 1,
+    "value": 0.08566666666666667
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0526
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 3,
+    "value": 0.05126666666666666
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 4,
+    "value": 0.08259999999999999
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0026072791337966917
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 1,
+    "value": 0.002120565931002299
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 2,
+    "value": 0.003606732279062271
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0022274151603380835
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 4,
+    "value": 0.002628893415133158
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0026268632431825003
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0018819111168384551
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 2,
+    "value": 0.002909182012081146
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0024958087662855784
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 4,
+    "value": 0.002390668203433355
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0035261585652828216
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 1,
+    "value": 0.004560803067684174
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0055678288122018174
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 3,
+    "value": 0.006880111515522003
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0033136407951513923
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0025644338270028435
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0019352290014425912
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 2,
+    "value": 0.002864602752526601
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 3,
+    "value": 0.002395997748772303
+  },
+  {
+    "profile": "shortcut",
+    "arm": "clean",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0022205236554145814
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0004705300357867977
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0003144557929947301
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0002649999953414294
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00029412616322102927
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0004723690645868148
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0011986066198386215
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0004891889398268145
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00033838290872529274
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0005031904867118502
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0005041131708959587
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 0,
+    "value": 0.004555591723690833
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0008906331177578455
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0008581027625243191
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0011740995254256581
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0027061585175225094
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0006978776990000175
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 1,
+    "value": 0.000352720231879238
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 2,
+    "value": 0.00042505797228010767
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0003480167851958075
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M00",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0008036688110537746
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 0,
+    "value": 0.00030238278271344594
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0002815160639394838
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0001785324736640315
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00023996596608066278
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0003778557042624538
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0011870519409244746
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0004699217041266765
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00033070642902569735
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0004509880923406358
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0004772244098701
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0046119216382105276
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0009398698929991907
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0007713905118632544
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0010007575588384943
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0027451596621690024
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0005088498365811447
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 1,
+    "value": 0.00032170123064352915
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0003400926778553509
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00026436575392725084
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M01",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0007139734679144078
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0004783019102870192
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0003133502887809514
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0005003958998564441
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00028923377810750753
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0005027030271468744
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0012503355753759801
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0004937652003101722
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 2,
+    "value": 0.00032792387330549523
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0005186204664652369
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 1,
+    "seed": 4,
+    "value": 0.000549584148783595
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 0,
+    "value": 0.00468954730770791
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0008906331177578455
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0008581027625243191
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0011740995254256581
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 2,
+    "seed": 4,
+    "value": 0.002718632317103868
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0008190716417957458
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 1,
+    "value": 0.000354226302699938
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 2,
+    "value": 0.000456092229834392
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0003438431411422073
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M10",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0009612225409960898
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0003179795466793425
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0002806913776207186
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 2,
+    "value": 0.00041408746258221287
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00023388417987272992
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0004087678203467323
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0012320442872329521
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0004751575419936877
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0003192663921856097
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 3,
+    "value": 0.00046719453310577305
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0005204995354502516
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 0,
+    "value": 0.004745413114446442
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0009398698929991907
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0007713905118632544
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0010007575588384943
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0027626340211367854
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0006348167865713139
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0003274100969349436
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 2,
+    "value": 0.00037306785481803324
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00026060777392129954
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "M11",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0008746322472930489
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 0,
+    "value": 1.5596763965896635e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -8.246863187652328e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 2,
+    "value": 0.00023555498891818144
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 3,
+    "value": -6.081786207932847e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 4,
+    "value": 3.091211608427849e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 4.499234630847727e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 1,
+    "value": 5.235837867011138e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -1.1440036840087674e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 3,
+    "value": 1.6206440765137317e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 4.32751255801516e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 0.00013349147623591443
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 1.7474358967783398e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 0,
+    "value": 0.00012596694999016914
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 1,
+    "value": 5.7088662914144535e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 2,
+    "value": 3.2975176962682404e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -3.757980005951303e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 4,
+    "value": 0.00016065877937864118
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -0.00016032236360767672
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -3.2658911160232765e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 2,
+    "value": -8.630843727423116e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 3,
+    "value": -5.534959823477756e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -9.393520680014205e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 0,
+    "value": -1.8291288143028218e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -1.860765831648441e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -8.657481119885534e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -5.142593335946385e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 4,
+    "value": -2.9084613333343394e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 5.5865806738531834e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 4.923677524134539e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 2,
+    "value": -8.671225066106485e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 3,
+    "value": -0.00017334196658716418
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 4.400170403291719e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -0.00018425485522443187
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -2.6816205764994448e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -8.302437501635873e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -8.323536722090779e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 4,
+    "value": -8.65902937030408e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -0.0001525504891074551
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -3.376441537401144e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 2,
+    "value": 0.00014908746724078345
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 3,
+    "value": -6.024198334829937e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -6.36012442400825e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 3.343766739433037e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -1.4031397833126685e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 2,
+    "value": -1.911651653968309e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -3.599595360607715e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 1.638636455429298e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 0.000189821390755609
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 4.923677524134539e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 2,
+    "value": -8.671225066106485e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 3,
+    "value": -0.00017334196658716418
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 5.647550361427591e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -6.306091242870363e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -2.5310134944294434e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -5.1990117462074405e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -8.740901127450797e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 4,
+    "value": 7.096343623927426e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 0,
+    "value": 7.824889465675e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 1,
+    "value": 2.8081789501345113e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 2,
+    "value": 1.5908440316682714e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 3,
+    "value": -1.1894010944110479e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 4,
+    "value": 5.781535242189401e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 0,
+    "value": -6.736609228881324e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 1,
+    "value": 6.595773836534139e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 2,
+    "value": -9.810014202901167e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 3,
+    "value": 7.764610117506165e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 4,
+    "value": -2.1958523074847717e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 0,
+    "value": -4.6410778116269347e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 1,
+    "value": 7.688147485312861e-23
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 2,
+    "value": 3.5086222257641257e-22
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 3,
+    "value": -1.2027867851011064e-22
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 4,
+    "value": 5.00055938642467e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 0,
+    "value": 4.773007194440912e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 1,
+    "value": 4.202795470714439e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 2,
+    "value": 1.9409194083980792e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 3,
+    "value": 4.1566404764889296e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 4,
+    "value": 3.1050494363261035e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0448
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 1,
+    "value": 0.02353333333333333
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 2,
+    "value": 0.03786666666666666
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 3,
+    "value": 0.03733333333333332
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 4,
+    "value": 0.067
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 0,
+    "value": 0.06426666666666665
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 1,
+    "value": 0.025599999999999998
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 2,
+    "value": 0.019666666666666666
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0398
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0068
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 0,
+    "value": 0.020866666666666665
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 4,
+    "value": 0.019
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 0,
+    "value": 0.056333333333333326
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 1,
+    "value": 0.03153333333333333
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0436
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0338
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 4,
+    "value": 0.058733333333333325
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0028901969909667967
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0013551928063233693
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 2,
+    "value": 0.002074142156044642
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 3,
+    "value": 0.002046612451473872
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 4,
+    "value": 0.002502947473526001
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0031393448154131568
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0011222012102603913
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0012599990685780843
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0018033404568831124
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0019179579198360442
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 0,
+    "value": 0.005026115391651789
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0033988569935162857
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 2,
+    "value": 0.004689716458320618
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 3,
+    "value": 0.007496924193700154
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0031906266152858733
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 0,
+    "value": 0.003005775213241577
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0011113734602928162
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0018362009366353356
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00204029221534729
+  },
+  {
+    "profile": "shortcut",
+    "arm": "augmentation",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0021509169697761536
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 0,
+    "value": 0.00046647638749692464
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 1,
+    "value": 0.00039941839973097875
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 2,
+    "value": 7.629022894051848e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0002766414926894742
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00019603466784564515
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0004715919639138966
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0008528284455137175
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 2,
+    "value": 1.7694737849679342e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0005065008785484846
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 1,
+    "seed": 4,
+    "value": 9.235021850019162e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 0,
+    "value": 0.00239125255388664
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0009690109969428424
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0006204817616643107
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0008439491799291334
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0016275766832273039
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0004850215214209701
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0005695649424842127
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0003507178789563172
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0004008624957209913
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M00",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0004174525798463419
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0004075933166116528
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0003755535962486341
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 2,
+    "value": 8.691653846758269e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0002811266553886319
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 0,
+    "seed": 4,
+    "value": 0.00017948516655483674
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0004906095981087896
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0008169818007972481
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 2,
+    "value": 1.7820720276267028e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0004813314156174531
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 1,
+    "seed": 4,
+    "value": 9.325151424783849e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 0,
+    "value": 0.002476157110199516
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0009711845954632187
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 2,
+    "value": 0.000621239820143447
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0008442361730361924
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0016420117604056422
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 0,
+    "value": 0.000440555525123837
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0005382033440508673
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0003793616910674511
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0003897838829477515
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M01",
+    "task": 3,
+    "seed": 4,
+    "value": 0.00041241022210445575
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 0,
+    "value": 0.00047051881410159523
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0004086889321400302
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 2,
+    "value": 7.636888064581941e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00027984164223501497
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0002129741087332248
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 0,
+    "value": 0.00047365984101018237
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 1,
+    "value": 0.000858179202402968
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 2,
+    "value": 1.7694737849679342e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 3,
+    "value": 0.000505202727500146
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 1,
+    "seed": 4,
+    "value": 9.235021850019162e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 0,
+    "value": 0.0023437723579281013
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0009690109969428424
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0006204817616643107
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0008439491799291334
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 2,
+    "seed": 4,
+    "value": 0.001622697653593055
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0004946087065000007
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0005714250677880326
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 2,
+    "value": 0.00035057739348022884
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 3,
+    "value": 0.0004081971892677118
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M10",
+    "task": 3,
+    "seed": 4,
+    "value": 0.00041980479009304743
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0004112006765380272
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0003849118839451838
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 2,
+    "value": 8.699579883648541e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 3,
+    "value": 0.00028401705095625296
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0001964262971438206
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0004932834558687567
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0008237786903303238
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 2,
+    "value": 1.7820720276267028e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 3,
+    "value": 0.00047947462601812294
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 1,
+    "seed": 4,
+    "value": 9.325151424783849e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 0,
+    "value": 0.002427212130071964
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0009711845954632187
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 2,
+    "value": 0.000621239820143447
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0008442361730361924
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0016371586280202167
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 0,
+    "value": 0.00044905313488067546
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0005403824842508455
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0003791338377331627
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 3,
+    "value": 0.00039661217578864315
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "M11",
+    "task": 3,
+    "seed": 4,
+    "value": 0.00041523238106841074
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 0,
+    "value": 3.6073599263744564e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 1,
+    "value": 9.358287696549695e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 2,
+    "value": 7.926036890271899e-08
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 2.8903955676210933e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 0,
+    "seed": 4,
+    "value": 1.694113058898387e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 2.6738577599669835e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 1,
+    "value": 6.796889533075919e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -1.8567895993301622e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 0,
+    "value": -4.894498012755167e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 2,
+    "seed": 4,
+    "value": -4.853132385425697e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 0,
+    "value": 8.497609756838552e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 1,
+    "value": 2.1791401999781984e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 2,
+    "value": -2.2785333428843774e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 3,
+    "value": 6.828292840891637e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "identity_restore",
+    "task": 3,
+    "seed": 4,
+    "value": 2.822158963954965e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -5.931813756356794e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -2.377704819484638e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 2,
+    "value": 1.062691819066601e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 4.1754087212379735e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 0,
+    "seed": 4,
+    "value": -1.654781158940415e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 1.9623614858574193e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -3.440051207264411e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 2,
+    "value": 1.2598242658768338e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -2.5728101482023107e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 9.012957476468868e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 8.343977214386287e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 2.1735985203764506e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 7.580584791364421e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 2.8699310705912465e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 1.4460974427161046e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -4.5555571619325116e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -3.104258353718713e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 2,
+    "value": 2.8556444252933844e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -1.1585013479068737e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "amplitude_restore",
+    "task": 3,
+    "seed": 4,
+    "value": -4.5724090246367665e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 0,
+    "value": -5.527571095889734e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 1,
+    "value": -1.4506515785794913e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 2,
+    "value": 1.0705569895966923e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 3,
+    "value": 7.375558266778842e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 0,
+    "seed": 4,
+    "value": 3.916292981755012e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 0,
+    "value": 2.169149195485997e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 1,
+    "value": -2.9049755183393534e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 2,
+    "value": 1.2598242658768338e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 3,
+    "value": -2.702625253036165e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 1,
+    "seed": 4,
+    "value": 9.012957476468868e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 0,
+    "value": 3.595957618532387e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 1,
+    "value": 2.1735985203764506e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 2,
+    "value": 7.580584791364421e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 3,
+    "value": 2.8699310705912465e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 2,
+    "seed": 4,
+    "value": 9.581944792912445e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 0,
+    "value": -3.5968386540294515e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 1,
+    "value": -2.9182458233367154e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 2,
+    "value": 2.8415958776845506e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 3,
+    "value": -4.250319932348143e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "joint_restore",
+    "task": 3,
+    "seed": 4,
+    "value": -2.220198777931279e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 0,
+    "value": -4.350666782961544e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 1,
+    "value": 8.77552874982247e-08
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 2,
+    "value": 6.086636018013953e-10
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 3,
+    "value": -3.0975397791977477e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 0,
+    "seed": 4,
+    "value": 1.6897014042171164e-09
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 0,
+    "value": 6.059806636812017e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 1,
+    "value": 1.4461326438253467e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 3,
+    "value": -5.586385509916229e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 1,
+    "seed": 4,
+    "value": -1.0587911840678755e-26
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 0,
+    "value": -1.4647841690126773e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 2,
+    "seed": 4,
+    "value": 2.5897248822905224e-08
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 0,
+    "value": -1.0895753221920456e-06
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 1,
+    "value": 3.19014896158224e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 2,
+    "value": -8.736785820010102e-08
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 3,
+    "value": -5.064007058289572e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "interaction",
+    "task": 3,
+    "seed": 4,
+    "value": 4.6994871724947683e-07
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 0,
+    "value": 0.014533333333333332
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 1,
+    "value": 0.017
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 2,
+    "value": 0.004133333333333333
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 3,
+    "value": 0.0138
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 0,
+    "seed": 4,
+    "value": 0.010266666666666665
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 0,
+    "value": 0.034866666666666664
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0186
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 3,
+    "value": 0.01653333333333333
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 1,
+    "seed": 4,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 0,
+    "value": 0.003
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 1,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 2,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 3,
+    "value": 0.0
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 2,
+    "seed": 4,
+    "value": 0.007533333333333333
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 0,
+    "value": 0.02553333333333333
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 1,
+    "value": 0.016666666666666666
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 2,
+    "value": 0.0035333333333333328
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 3,
+    "value": 0.017599999999999998
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "id_switch_rate",
+    "task": 3,
+    "seed": 4,
+    "value": 0.013866666666666666
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 0,
+    "value": 0.0027756260653336844
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 1,
+    "value": 0.0016368897020816802
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 2,
+    "value": 0.0026130534013112383
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 3,
+    "value": 0.000852048893769582
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 0,
+    "seed": 4,
+    "value": 0.0017396852473417915
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 0,
+    "value": 0.0018663313070933021
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 1,
+    "value": 0.0020201660037040712
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 2,
+    "value": 4.9240219593048094e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 3,
+    "value": 0.0014062882840633392
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 1,
+    "seed": 4,
+    "value": 0.00013314598004023233
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 0,
+    "value": 0.002011325248082479
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 1,
+    "value": 0.00014235937198003133
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 2,
+    "value": 5.665876070658367e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 3,
+    "value": 2.122520605723063e-05
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 2,
+    "seed": 4,
+    "value": 0.0014522153894106547
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 0,
+    "value": 0.0024399266680081686
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 1,
+    "value": 0.0015578209042549133
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 2,
+    "value": 0.002493496509393056
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 3,
+    "value": 0.000785516748825709
+  },
+  {
+    "profile": "shortcut",
+    "arm": "consistency",
+    "metric": "gate_absolute_change",
+    "task": 3,
+    "seed": 4,
+    "value": 0.0013432751655578614
+  }
+]

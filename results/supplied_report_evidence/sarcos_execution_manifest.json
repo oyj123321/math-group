@@ -1,0 +1,41 @@
+{
+  "configuration": {
+    "protocol": "E5-SARCOS-v1",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "width": 128,
+    "epochs": 100,
+    "batch": 1024,
+    "lr": 0.002,
+    "weight_decay": 0.0001,
+    "balance": 0.1,
+    "kl_weight": 0.1,
+    "training_noise_sd": 0.1,
+    "split_seed": 20261027,
+    "validation_sources": 5000,
+    "bootstrap_draws": 1000,
+    "primary": "moe_consistency-minus-moe_augmentation at noise SD 0.25",
+    "sampling_unit": "original robot-state record; average joints and draws first"
+  },
+  "source_hashes": {
+    "sarcos_e5.py": "25b7650d9e63095644ee55414fedb59c0f1f21df9e20f86ba5e6ac8315af5591",
+    "run.py": "36c50ef0f827f5e819839d5a8868ead76a161e809d49948abf0e673cf98800a2",
+    "e4.py": "be2c96fb00cfe14329a0db02ae5fe5485a99611bccdd537fef575c46956acacc",
+    "analyze_v2.py": "441904df7459c6bb774cc7a3efc86e62c2b001000d09efa9590369c0424a19b9"
+  },
+  "protocol_sha256": "d136a11e01a0d0823352d0c3bb872445c7d5288f864c7be76fb02fa90d7d83cd",
+  "prepared_sha256": "2421c2be2b9fae9d126cbdd6e6bccb1de03872a2220910d80ecd48edd936d5ed",
+  "dataset_metadata_sha256": "102fef32cbcb68645185bb8959f5e84172ddbaae94e32b2e223d6cd56a03e22c",
+  "preflight_tests": "12 passed",
+  "preflight_tests_sha256": "1c270023ee32b0a60109f74d071a5daed23e088960c479810cb7648a9e82737b",
+  "original_experiment_tests": "15 passed before E5 implementation",
+  "workers": 4,
+  "torch_threads_per_worker": 1,
+  "total_training_jobs": 35,
+  "started_utc": "2026-10-27T13:20:13Z"
+}

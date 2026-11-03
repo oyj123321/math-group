@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "baseline_values": 30,
+  "sarcos_rows": 264,
+  "sarcos_decomposition_checks": 18,
+  "sarcos_comparison_checks": 62,
+  "paired_marker_and_excess_identities": 36,
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "note": "Summary consistency checks only. See audit/REVIEW.md for independently replayed checks and unavailable SARCOS artifacts."
+}

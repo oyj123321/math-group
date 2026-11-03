@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "python_environment": {
+    "numpy": "2.2.6"
+  },
+  "means_and_intervals": [
+    {
+      "metric": "empirical_bayes_mse",
+      "mean": 0.3190434545601847,
+      "ci_low": 0.3111176176014457,
+      "ci_high": 0.3272838906369739
+    },
+    {
+      "metric": "moe_blind_mse",
+      "mean": 0.32239504428439597,
+      "ci_low": 0.3142661259070278,
+      "ci_high": 0.33084673295939343
+    },
+    {
+      "metric": "moe_blind_excess_over_bayes",
+      "mean": 0.003351589724211234,
+      "ci_low": 0.002757546333004527,
+      "ci_high": 0.003912116700101053
+    }
+  ],
+  "bootstrap_draws": 1000,
+  "bootstrap_seed": 901,
+  "source_count": 20000,
+  "training_seeds": 5,
+  "baseline_mask_seeds": [
+    9024,
+    9025,
+    9026
+  ],
+  "paired_control_mask_seeds": [
+    9015,
+    9016,
+    9017
+  ],
+  "explanation": "Same models and sources; original mask_blind condition and paired control use distinct mask draws. Control uses original marked-mask seeds for both indicator settings."
+}
