@@ -1,0 +1,325 @@
+% !TeX program = xelatex
+\documentclass[aspectratio=169,11pt]{beamer}
+
+\usepackage{amsmath,booktabs,tikz}
+\usetikzlibrary{positioning}
+
+\definecolor{talkbg}{HTML}{F6F3ED}
+\definecolor{talkteal}{HTML}{1F4E5F}
+\definecolor{talkrust}{HTML}{8C392E}
+\definecolor{talkgreen}{HTML}{2C4A33}
+\definecolor{talkink}{HTML}{243038}
+\definecolor{talkmuted}{HTML}{5E6A70}
+\definecolor{talkcard}{HTML}{FFFCF8}
+\definecolor{talkclean}{HTML}{8A949C}
+
+\setbeamercolor{normal text}{fg=talkink,bg=talkbg}
+\setbeamercolor{frametitle}{fg=white,bg=talkteal}
+\setbeamercolor{framesubtitle}{fg=white,bg=talkteal}
+\setbeamercolor{footline}{fg=talkmuted,bg=talkbg}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+\setbeamerfont{framesubtitle}{size=\small}
+\setbeamersize{text margin left=8mm,text margin right=8mm}
+\setbeamertemplate{navigation symbols}{}
+
+\makeatletter
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip
+  \hbox to\textwidth{%
+    \hskip0pt minus\beamer@leftmargin
+    \color{talkteal}\rule{\paperwidth}{3.2mm}%
+    \hskip0pt minus\beamer@rightmargin
+  }%
+  \nointerlineskip
+  \begin{beamercolorbox}[wd=\paperwidth,sep=0pt,leftskip=8mm,rightskip=6mm]{frametitle}
+    \usebeamerfont{frametitle}\insertframetitle\par
+    \ifx\insertframesubtitle\@empty\else
+      \vspace{0.6mm}{\usebeamerfont{framesubtitle}\insertframesubtitle}\fi
+    \vspace{2.2mm}%
+  \end{beamercolorbox}%
+}
+\makeatother
+
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.34\paperwidth,ht=2.6ex,dp=1.4ex,leftskip=8mm]{footline}%
+      \usebeamerfont{footline}CISC 7402\quad 15 min
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.66\paperwidth,ht=2.6ex,dp=1.4ex,rightskip=8mm]{footline}%
+      \hfill\insertframenumber\,/\,\inserttotalframenumber
+    \end{beamercolorbox}%
+  }%
+}
+
+\newcommand{\talkcard}[3]{%
+  \begin{tikzpicture}
+    \node[draw=#1,line width=0.8pt,fill=talkcard,rounded corners=1.5pt,
+          text width=4.55cm,minimum height=3.55cm,align=center,inner sep=5pt] {#2\\[1.5mm]#3};
+  \end{tikzpicture}%
+}
+
+% Horizontal switch-rate bar. #1 = rate times 100, #2 = color.
+\newcommand{\ratebar}[2]{%
+  \begin{tikzpicture}[baseline=-0.55ex]
+    \fill[#2] (0,0) rectangle ({#1*1.55cm/4.2},0.28cm);
+    \node[anchor=west,inner sep=1pt,font=\scriptsize] at ({#1*1.55cm/4.2},0.14cm) {#1};
+  \end{tikzpicture}%
+}
+
+\begin{document}
+\begin{frame}[plain]
+  \vspace{8mm}
+  {\color{talkteal}\rule{18mm}{1.3pt}}
+  \vspace{5mm}
+
+  {\LARGE\bfseries Routing robustness\\[1mm] in mixture-of-experts\par}
+  \vspace{3mm}
+  {\large\color{talkmuted} Separating expert-input effects from routing effects\par}
+  \vspace{7mm}
+  {\large Do Anh Dung \hspace{4mm} Yang Jian \hspace{4mm} Xiangli Qianhui\par}
+\end{frame}
+
+\begin{frame}{15 minutes}
+  \vspace{2mm}
+  \begin{tikzpicture}
+    \node[fill=talkteal,text=white,rounded corners=2pt,minimum width=14.2cm,minimum height=1.15cm,font=\large]
+      {\makebox[2.6cm][l]{0:00--5:00}\makebox[4.4cm][l]{Do Anh Dung}Did the route cause the error?};
+  \end{tikzpicture}
+
+  \vspace{3mm}
+  \begin{tikzpicture}
+    \node[fill=talkrust,text=white,rounded corners=2pt,minimum width=14.2cm,minimum height=1.15cm,font=\large]
+      {\makebox[2.6cm][l]{5:00--10:00}\makebox[4.4cm][l]{Xiangli Qianhui}Input, routing, or both?};
+  \end{tikzpicture}
+
+  \vspace{3mm}
+  \begin{tikzpicture}
+    \node[fill=talkgreen,text=white,rounded corners=2pt,minimum width=14.2cm,minimum height=1.15cm,font=\large]
+      {\makebox[2.6cm][l]{10:00--15:00}\makebox[4.4cm][l]{Yang Jian}Does a stable router predict better?};
+  \end{tikzpicture}
+\end{frame}
+
+\begin{frame}{A changed route is not an explanation}
+  \framesubtitle{Do Anh Dung}
+  \vspace{4mm}
+  \begin{columns}[c]
+    \begin{column}{0.48\textwidth}
+      \begin{tikzpicture}
+        \node[draw=talkteal,line width=1pt,fill=talkcard,text width=5.6cm,minimum height=3.6cm,align=center]
+          {{\Large\color{talkteal}\bfseries Expert input}\\[2mm] the features the selected expert reads};
+      \end{tikzpicture}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \begin{tikzpicture}
+        \node[draw=talkrust,line width=1pt,fill=talkcard,text width=5.6cm,minimum height=3.6cm,align=center]
+          {{\Large\color{talkrust}\bfseries Route}\\[2mm] which expert, and its gate weight};
+      \end{tikzpicture}
+    \end{column}
+  \end{columns}
+  \vspace{4mm}
+  {\large Switch rate counts changes. It does not price them.}
+\end{frame}
+
+\begin{frame}{Same model, four cells}
+  \framesubtitle{Do Anh Dung}
+  \vspace{1mm}
+  \centering
+  \includegraphics[width=\linewidth,height=0.72\textheight,keepaspectratio]{../paper/en/figures/figure1.pdf}
+\end{frame}
+
+\begin{frame}{Same $u$, four tasks}
+  \framesubtitle{Do Anh Dung \hspace{3mm} the cue $e_c$ chooses the map}
+  \vspace{3mm}
+  \begin{columns}[t]
+    \begin{column}{0.25\textwidth}\centering
+      $f_1$\\[1mm] sum\\[2mm]
+      $\displaystyle\frac{\sum_{i=1}^{8}u_i}{\sqrt{8}}$
+    \end{column}
+    \begin{column}{0.25\textwidth}\centering
+      $f_2$\\[1mm] contrast\\[2mm]
+      $\displaystyle\frac{\sum_{i=1}^{4}u_i-\sum_{i=5}^{8}u_i}{\sqrt{8}}$
+    \end{column}
+    \begin{column}{0.25\textwidth}\centering
+      $f_3$\\[1mm] product\\[2mm]
+      $\displaystyle\frac{u_1u_2+u_3u_4}{\sqrt{2}}$
+    \end{column}
+    \begin{column}{0.25\textwidth}\centering
+      $f_4$\\[1mm] sine\\[2mm]
+      $\sin(f_1)$
+    \end{column}
+  \end{columns}
+  \vspace{6mm}
+  {\color{talkink} $u$ predictive \hspace{6mm} $v$ nuisance \hspace{6mm} shortcut adds $2e_c$ in training only}
+\end{frame}
+
+\begin{frame}{Experts specialize}
+  \framesubtitle{Xiangli Qianhui \hspace{3mm} independent profile}
+  \centering
+  \includegraphics[width=\linewidth]{figures/specialization.pdf}\\[1.5mm]
+  \raggedright
+  {\small The dominant expert receives \textbf{0.579} of a regime's routes.
+  Removing it raises MSE by \textbf{+0.326}.
+  That removal cost correlates only \textbf{0.11} with scale-1 noise error.}
+\end{frame}
+
+\begin{frame}{Task kept: the error is the input}
+  \framesubtitle{Xiangli Qianhui \hspace{3mm} MSE change $\times 10^{4}$, scale 1}
+  \vspace{2mm}
+  \centering
+  \begin{tikzpicture}[x=1cm,y=1cm]
+    \draw[talkmuted] (0,0.2) -- (0,2.6);
+    \node[anchor=south,font=\small\color{talkteal}] at (1.6,2.55) {input};
+    \foreach \y/\name/\val/\rout in {2.05/Indep.\ noise/1.49/-0.10, 1.25/Indep.\ shift/1.60/-0.10, 0.45/Shortcut noise/5.31/-0.17} {
+      \node[anchor=east] at (-0.15,\y) {\name};
+      \fill[talkteal] (0,\y-0.16) rectangle ({\val*0.85},\y+0.16);
+      \node[anchor=west] at ({\val*0.85+0.12},\y) {\val};
+      \node[anchor=west,text=talkrust] at ({\val*0.85+1.15},\y) {$R$ \rout};
+    }
+  \end{tikzpicture}
+
+  \vspace{1mm}
+  \raggedright Every routing interval on these rows includes 0. Shortcut shift is the next slide.
+\end{frame}
+
+\begin{frame}{A near-zero total hides two effects}
+  \framesubtitle{Xiangli Qianhui \hspace{3mm} shortcut mean shift, scale 1}
+  \vspace{6mm}
+  \begin{columns}[c]
+    \begin{column}{0.33\textwidth}\centering
+      {\Huge\color{talkteal} +2.33}\\[1mm] Input\\[1mm] {\small [0.51,\ 5.13]}
+    \end{column}
+    \begin{column}{0.33\textwidth}\centering
+      {\Huge\color{talkrust} $-$2.29}\\[1mm] Routing\\[1mm] {\small [$-$4.88,\ $-$0.61]}
+    \end{column}
+    \begin{column}{0.33\textwidth}\centering
+      {\Huge 0.04}\\[1mm] Total\\[1mm] {\small [$-$0.47,\ 0.53]}
+    \end{column}
+  \end{columns}
+  \vspace{6mm}
+  The new route offsets the damaged input.
+\end{frame}
+
+\begin{frame}{Deleting information is not one case}
+  \framesubtitle{Xiangli Qianhui \hspace{3mm} independent profile, raw MSE}
+  \vspace{4mm}
+  \begin{columns}[t]
+    \begin{column}{0.5\textwidth}
+      \centering
+      {\large\color{talkteal} Masks}\\[2mm]
+      {\LARGE input 0.16 $\rightarrow$ 0.59}\\[2mm]
+      {\LARGE routing $<$ 0.01}\\[2mm]
+      {\large switch 0.12 $\rightarrow$ 0.27}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \centering
+      {\large\color{talkrust} Cue off, 50\%}\\[2mm]
+      {\LARGE input 0.28}\\[2mm]
+      {\LARGE routing 0.15}\\[2mm]
+      {\large identity-only 0.18}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Dense nets: the gap depends on the test}
+  \framesubtitle{Xiangli Qianhui}
+  \vspace{1.5mm}
+  \begin{columns}[c]
+    \begin{column}{0.33\textwidth}\centering
+      \talkcard{talkteal}{\large\color{talkteal} 25\% mask\\[1mm]{\LARGE $\approx$ 0.323}}{\small both profiles\\ three models tied}
+    \end{column}
+    \begin{column}{0.33\textwidth}\centering
+      \talkcard{talkrust}{\large\color{talkrust} Cue 50\%, independent\\[1mm]{\Large MoE 0.43}}{\small MAC 0.40,\ Param 0.35\\ MoE is worse}
+    \end{column}
+    \begin{column}{0.33\textwidth}\centering
+      \talkcard{talkink}{\large Noise error\\[1mm]{\Large includes 0}}{\small MoE versus dense\\ intervals contain 0}
+    \end{column}
+  \end{columns}
+  \vspace{2.5mm}
+  \centering
+  {\small Latency is separate: MoE dispatch 1.19\,ms, dense about 0.14\,ms. Matching MACs does not match latency.}
+\end{frame}
+
+\begin{frame}{A lower curve is not a detected gain}
+  \framesubtitle{Yang Jian \hspace{3mm} synthetic nuisance noise}
+  \centering
+  \includegraphics[width=0.84\linewidth]{../paper/en/figures/figure3.pdf}\\[0.5mm]
+  {\small Consistency is lowest. Every paired gap versus augmentation includes 0.}
+\end{frame}
+
+\begin{frame}{Where the switch rate actually drops}
+  \framesubtitle{Yang Jian \hspace{3mm} scale 1, switch rate $\times 100$}
+  \vspace{1mm}
+  {\small\color{talkclean}\rule{4mm}{1.6mm}}\ clean \hspace{3mm}
+  {\small\color{talkrust}\rule{4mm}{1.6mm}}\ augmentation \hspace{3mm}
+  {\small\color{talkgreen}\rule{4mm}{1.6mm}}\ consistency\\[2mm]
+  \renewcommand{\arraystretch}{1.15}
+  \begin{tabular}{@{}lccc@{}}
+    & clean & augmentation & consistency \\
+    Indep.\ noise & \ratebar{2.88}{talkclean} & \ratebar{2.30}{talkrust} & \ratebar{1.60}{talkgreen} \\
+    Indep.\ shift & \ratebar{3.18}{talkclean} & \ratebar{3.11}{talkrust} & \ratebar{1.53}{talkgreen} \\
+    Shortcut noise & \ratebar{4.00}{talkclean} & \ratebar{3.15}{talkrust} & \ratebar{1.09}{talkgreen} \\
+    Shortcut shift & \ratebar{4.09}{talkclean} & \ratebar{2.56}{talkrust} & \ratebar{0.99}{talkgreen} \\
+  \end{tabular}\\[2mm]
+  {\small Most of the drop from clean is already present under augmentation. Consistency goes further; the accuracy gain over augmentation is not detected.}
+\end{frame}
+
+\begin{frame}{SARCOS: same decomposition, one exception}
+  \framesubtitle{Yang Jian}
+  \centering
+  \includegraphics[width=\linewidth]{figures/sarcos.pdf}\\[1mm]
+  \raggedright
+  {\small Exception: masking 6 of 21 sensors, the routing term is $-0.032$ [$-0.044$, $-0.020$]. Rerouting offsets part of the input damage.}
+\end{frame}
+
+\begin{frame}{What these fifteen minutes support}
+  \framesubtitle{Yang Jian}
+  \vspace{2mm}
+  \begin{tikzpicture}
+    \node[fill=talkteal,text=white,rounded corners=2pt,minimum width=14.2cm,minimum height=1.05cm,font=\large,align=left]
+      {\makebox[1.3cm][c]{\bfseries 01}\ Noise error is an input effect, even when experts switch.};
+  \end{tikzpicture}
+  \vspace{2.5mm}
+  \begin{tikzpicture}
+    \node[fill=talkrust,text=white,rounded corners=2pt,minimum width=14.2cm,minimum height=1.05cm,font=\large,align=left]
+      {\makebox[1.3cm][c]{\bfseries 02}\ A new route can offset, cancel, or add cost.};
+  \end{tikzpicture}
+  \vspace{2.5mm}
+  \begin{tikzpicture}
+    \node[fill=talkgreen,text=white,rounded corners=2pt,minimum width=14.2cm,minimum height=1.05cm,font=\large,align=left]
+      {\makebox[1.3cm][c]{\bfseries 03}\ A stabler router is not yet a better predictor.};
+  \end{tikzpicture}
+\end{frame}
+
+\begin{frame}{Where it stops}
+  \framesubtitle{Yang Jian}
+  \vspace{3mm}
+  \begin{columns}[T,onlytextwidth]
+    \begin{column}{0.24\textwidth}\centering
+      {\large Given cue}\\[1.5mm]
+      {\footnotesize The cue is supplied. The model does not discover the tasks.}
+    \end{column}
+    \begin{column}{0.24\textwidth}\centering
+      {\large Top-1 MLPs}\\[1.5mm]
+      {\footnotesize Four MLP experts. This is not a language-model result.}
+    \end{column}
+    \begin{column}{0.24\textwidth}\centering
+      {\large Order matters}\\[1.5mm]
+      {\footnotesize Input first and route first can disagree.}
+    \end{column}
+    \begin{column}{0.24\textwidth}\centering
+      {\large One robot arm}\\[1.5mm]
+      {\footnotesize SARCOS is one archive.}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[plain]
+  \vspace{18mm}
+  \centering
+  {\LARGE\bfseries The paired contrast prices a route change.\par}
+  \vspace{8mm}
+  {\large\color{talkmuted} Do Anh Dung \hspace{4mm} Xiangli Qianhui \hspace{4mm} Yang Jian}
+\end{frame}
+
+\end{document}
