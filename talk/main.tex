@@ -155,89 +155,33 @@
 
 \begin{frame}{Experts specialize}
   \framesubtitle{Xiangli Qianhui \hspace{3mm} independent profile}
+  \vspace{-1mm}
   \centering
-  \includegraphics[width=\linewidth]{figures/specialization.pdf}\\[1.5mm]
-  \raggedright
-  {\small The dominant expert receives \textbf{0.579} of a regime's routes.
-  Removing it raises MSE by \textbf{+0.326}.
-  That removal cost correlates only \textbf{0.11} with scale-1 noise error.}
+  \includegraphics[width=\linewidth,height=0.78\textheight,keepaspectratio]{figures/specialization.pdf}
 \end{frame}
 
-\begin{frame}{Task kept: the error is the input}
-  \framesubtitle{Xiangli Qianhui \hspace{3mm} MSE change $\times 10^{4}$, scale 1}
-  \vspace{2mm}
+\begin{frame}{Task kept: routing is not one story}
+  \framesubtitle{Xiangli Qianhui \hspace{3mm} MSE change $\times 10^{4}$; bars are 95\% intervals}
+  \vspace{-1mm}
   \centering
-  \begin{tikzpicture}[x=1cm,y=1cm]
-    \draw[talkmuted] (0,0.2) -- (0,2.6);
-    \node[anchor=south,font=\small\color{talkteal}] at (1.6,2.55) {input};
-    \foreach \y/\name/\val/\rout in {2.05/Indep.\ noise/1.49/-0.10, 1.25/Indep.\ shift/1.60/-0.10, 0.45/Shortcut noise/5.31/-0.17} {
-      \node[anchor=east] at (-0.15,\y) {\name};
-      \fill[talkteal] (0,\y-0.16) rectangle ({\val*0.85},\y+0.16);
-      \node[anchor=west] at ({\val*0.85+0.12},\y) {\val};
-      \node[anchor=west,text=talkrust] at ({\val*0.85+1.15},\y) {$R$ \rout};
-    }
-  \end{tikzpicture}
-
-  \vspace{1mm}
-  \raggedright Every routing interval on these rows includes 0. Shortcut shift is the next slide.
-\end{frame}
-
-\begin{frame}{A near-zero total hides two effects}
-  \framesubtitle{Xiangli Qianhui \hspace{3mm} shortcut mean shift, scale 1}
-  \vspace{6mm}
-  \begin{columns}[c]
-    \begin{column}{0.33\textwidth}\centering
-      {\Huge\color{talkteal} +2.33}\\[1mm] Input\\[1mm] {\small [0.51,\ 5.13]}
-    \end{column}
-    \begin{column}{0.33\textwidth}\centering
-      {\Huge\color{talkrust} $-$2.29}\\[1mm] Routing\\[1mm] {\small [$-$4.88,\ $-$0.61]}
-    \end{column}
-    \begin{column}{0.33\textwidth}\centering
-      {\Huge 0.04}\\[1mm] Total\\[1mm] {\small [$-$0.47,\ 0.53]}
-    \end{column}
-  \end{columns}
-  \vspace{6mm}
-  The new route offsets the damaged input.
+  \includegraphics[width=\linewidth,height=0.72\textheight,keepaspectratio]{figures/task_kept.pdf}\\[1mm]
+  {\small First three red bars sit on 0. Shortcut shift leaves 0 and the total still includes 0.}
 \end{frame}
 
 \begin{frame}{Deleting information is not one case}
   \framesubtitle{Xiangli Qianhui \hspace{3mm} independent profile, raw MSE}
-  \vspace{4mm}
-  \begin{columns}[t]
-    \begin{column}{0.5\textwidth}
-      \centering
-      {\large\color{talkteal} Masks}\\[2mm]
-      {\LARGE input 0.16 $\rightarrow$ 0.59}\\[2mm]
-      {\LARGE routing $<$ 0.01}\\[2mm]
-      {\large switch 0.12 $\rightarrow$ 0.27}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \centering
-      {\large\color{talkrust} Cue off, 50\%}\\[2mm]
-      {\LARGE input 0.28}\\[2mm]
-      {\LARGE routing 0.15}\\[2mm]
-      {\large identity-only 0.18}
-    \end{column}
-  \end{columns}
+  \vspace{-1mm}
+  \centering
+  \includegraphics[width=\linewidth,height=0.72\textheight,keepaspectratio]{figures/delete_info.pdf}\\[0.5mm]
+  {\small Mask: routing stays flat while switching rises. Cue off: both terms add error.}
 \end{frame}
 
 \begin{frame}{Dense nets: the gap depends on the test}
-  \framesubtitle{Xiangli Qianhui}
-  \vspace{1.5mm}
-  \begin{columns}[c]
-    \begin{column}{0.33\textwidth}\centering
-      \talkcard{talkteal}{\large\color{talkteal} 25\% mask\\[1mm]{\LARGE $\approx$ 0.323}}{\small both profiles\\ three models tied}
-    \end{column}
-    \begin{column}{0.33\textwidth}\centering
-      \talkcard{talkrust}{\large\color{talkrust} Cue 50\%, independent\\[1mm]{\Large MoE 0.43}}{\small MAC 0.40,\ Param 0.35\\ MoE is worse}
-    \end{column}
-    \begin{column}{0.33\textwidth}\centering
-      \talkcard{talkink}{\large Noise error\\[1mm]{\Large includes 0}}{\small MoE versus dense\\ intervals contain 0}
-    \end{column}
-  \end{columns}
-  \vspace{2.5mm}
+  \framesubtitle{Xiangli Qianhui \hspace{3mm} independent profile}
+  \vspace{-1mm}
   \centering
-  {\small Latency is separate: MoE dispatch 1.19\,ms, dense about 0.14\,ms. Matching MACs does not match latency.}
+  \includegraphics[width=\linewidth,height=0.70\textheight,keepaspectratio]{figures/dense_gap.pdf}\\[0.6mm]
+  {\small Tied under the mask. MoE worse if the cue is off. Noise gaps include 0.}
 \end{frame}
 
 \begin{frame}{A lower curve is not a detected gain}
@@ -248,7 +192,7 @@
 \end{frame}
 
 \begin{frame}{Where the switch rate actually drops}
-  \framesubtitle{Yang Jian \hspace{3mm} scale 1, switch rate $\times 100$}
+  \framesubtitle{Yang Jian \hspace{3mm} switch rate $\times 100$}
   \vspace{1mm}
   {\small\color{talkclean}\rule{4mm}{1.6mm}}\ clean \hspace{3mm}
   {\small\color{talkrust}\rule{4mm}{1.6mm}}\ augmentation \hspace{3mm}

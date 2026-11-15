@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>Routing robustness — 中英口播稿</title>
+<style>
+  :root {
+    --bg: #f6f3ed;
+    --ink: #243038;
+    --muted: #5e6a70;
+    --teal: #1f4e5f;
+    --rust: #8c392e;
+    --green: #2c4a33;
+    --card: #fffcf8;
+    --line: #e4ddd2;
+    --warn: #8c392e;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.55 "Iowan Old Style", Palatino, "Palatino Linotype", "Songti SC", serif;
+  }
+  header { background: var(--teal); color: white; padding: 28px 8vw 22px; }
+  header p { margin: 6px 0 0; color: #d5e2e6; font-size: 15px; max-width: 820px; }
+  h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; font-weight: 650; }
+  nav {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    padding: 14px 8vw; position: sticky; top: 0;
+    background: rgba(246, 243, 237, 0.94);
+    border-bottom: 1px solid var(--line); z-index: 2;
+  }
+  nav a {
+    color: var(--teal); text-decoration: none;
+    border: 1px solid var(--line); background: var(--card);
+    border-radius: 999px; padding: 4px 12px;
+    font: 13px/1.4 "Segoe UI", sans-serif;
+  }
+  main { max-width: 880px; margin: 0 auto; padding: 8px 22px 72px; }
+  section { margin-top: 28px; scroll-margin-top: 72px; }
+  h2 { margin: 0 0 4px; font-size: 22px; }
+  .who-dung h2 { color: var(--teal); }
+  .who-qian h2 { color: var(--rust); }
+  .who-jian h2 { color: var(--green); }
+  .meta { color: var(--muted); margin: 0 0 14px; font-size: 15px; }
+  .beat { margin: 0 0 16px; }
+  .en { margin: 0; }
+  .zh {
+    margin: 6px 0 0;
+    color: var(--muted);
+    font-size: 15.5px;
+  }
+  .lang {
+    display: inline-block;
+    font: 11px/1 "Segoe UI", sans-serif;
+    letter-spacing: 0.04em;
+    color: var(--teal);
+    margin-right: 6px;
+    vertical-align: 1px;
+  }
+  .zh .lang { color: var(--rust); }
+  .note {
+    background: var(--card);
+    border-left: 3px solid var(--teal);
+    padding: 8px 12px;
+    margin: 8px 0 18px;
+    color: var(--muted);
+    font-size: 15px;
+  }
+  .who-qian .note { border-left-color: var(--rust); }
+  .who-jian .note { border-left-color: var(--green); }
+  .pg {
+    display: inline-block;
+    margin: 18px 0 8px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: var(--teal);
+    color: white;
+    font: 14px/1.3 "Segoe UI", sans-serif;
+  }
+  .who-qian .pg { background: var(--rust); }
+  .who-jian .pg { background: var(--green); }
+  .index {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 4px;
+    font: 15px/1.45 "Segoe UI", sans-serif;
+    background: var(--card);
+  }
+  .index th, .index td {
+    text-align: left;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  .index th { color: var(--muted); font-weight: 600; }
+  h3 { margin: 32px 0 8px; font-size: 20px; color: var(--teal); }
+  .how {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 15.5px;
+  }
+  .how p { margin: 0 0 8px; }
+  .how p:last-child { margin: 0; }
+  .modes { display: flex; gap: 8px; margin: 14px 0; }
+  .modes label {
+    position: relative;
+    cursor: pointer;
+    border: 1px solid var(--line);
+    background: var(--card);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font: 14px/1.3 "Segoe UI", sans-serif;
+  }
+  body:has(#by-role:checked) .modes label:has(#by-role),
+  body:has(#by-order:checked) .modes label:has(#by-order) {
+    background: var(--teal);
+    color: white;
+    border-color: var(--teal);
+  }
+  #mode-role, #mode-order { display: none; }
+  body:has(#by-role:checked) #mode-role { display: block; }
+  body:has(#by-order:checked) #mode-order { display: block; }
+  .modes input {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+  }
+  .person { margin: 18px 0 8px; font-size: 18px; }
+  .who-dung .person, #mode-role .dung { color: var(--teal); }
+  .qian { color: var(--rust); }
+  .jian { color: var(--green); }
+  .slide-tag {
+    font: 13px/1.3 "Segoe UI", sans-serif;
+    color: var(--muted);
+    margin: 18px 0 8px;
+  }
+  .qa {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 0 0 12px;
+  }
+  .qa h4 { margin: 0 0 8px; font-size: 16.5px; }
+  .ask { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
+  .say { margin: 0 0 8px; }
+  .dont {
+    margin: 0;
+    font-size: 14.5px;
+    color: var(--warn);
+  }
+  .k { font: 12px/1 "Segoe UI", sans-serif; letter-spacing: 0.03em; margin-right: 4px; }
+  @media print {
+    nav, .modes { display: none; }
+    #mode-role, #mode-order { display: block !important; }
+    header { padding: 12px 0; }
+    body { background: white; }
+    main { max-width: none; padding: 0; }
+    .qa, .beat, .note { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Routing robustness in mixture-of-experts</h1>
+  <p>中英对照口播稿。英文是对着幻灯片念的；中文是同一句的意思。整场是三步：Dung 算出一次路由变化对误差的贡献，千惠用它看不同的扰动，路由项有时接近零、有时抵消误差、有时加重误差，杨戬再问把路由训练得更稳会不会更准。每一页的第一句接上一页。区间包含 0 不要说成效果为零。</p>
+</header>
+<nav>
+  <a href="#index">页码对照</a>
+  <a href="#dung">Do Anh Dung · 0:00</a>
+  <a href="#qian">向丽千惠 · 5:00</a>
+  <a href="#jian">杨戬 · 10:00</a>
+  <a href="#qa">老师可能问的</a>
+</nav>
+<main>
+
+<section id="index">
+  <h2>页码对照</h2>
+  <p class="meta">幻灯片页脚的 n/16 就是下表的页码。口播是一页一段。</p>
+  <table class="index">
+    <thead><tr><th>页</th><th>谁讲</th><th>幻灯片标题</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Dung</td><td>封面 Routing robustness</td></tr>
+      <tr><td>2</td><td>Dung</td><td>15 minutes</td></tr>
+      <tr><td>3</td><td>Dung</td><td>A changed route is not an explanation</td></tr>
+      <tr><td>4</td><td>Dung</td><td>Same model, four cells</td></tr>
+      <tr><td>5</td><td>Dung</td><td>Same u, four tasks</td></tr>
+      <tr><td>6</td><td>千惠</td><td>Experts specialize</td></tr>
+      <tr><td>7</td><td>千惠</td><td>Task kept: the error is the input</td></tr>
+      <tr><td>8</td><td>千惠</td><td>A near-zero total hides two effects</td></tr>
+      <tr><td>9</td><td>千惠</td><td>Deleting information is not one case</td></tr>
+      <tr><td>10</td><td>千惠</td><td>Dense nets: the gap depends on the test</td></tr>
+      <tr><td>11</td><td>杨戬</td><td>A lower curve is not a detected gain</td></tr>
+      <tr><td>12</td><td>杨戬</td><td>Where the switch rate actually drops</td></tr>
+      <tr><td>13</td><td>杨戬</td><td>SARCOS: same decomposition, one exception</td></tr>
+      <tr><td>14</td><td>杨戬</td><td>What these fifteen minutes support</td></tr>
+      <tr><td>15</td><td>杨戬</td><td>Where it stops</td></tr>
+      <tr><td>16</td><td>杨戬</td><td>The paired contrast prices a route change</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="who-dung" id="dung">
+  <h2>Do Anh Dung，0:00–5:00 · 第 1–5 页</h2>
+  <p class="meta">第 3–4 页是为什么要拆、怎么拆。第 5 页说明把这些四格放在什么样的人工题上。第 5 页末尾把话交给千惠。</p>
+
+  <div class="beat">
+    <p class="pg">第 1 / 15 页 · 封面 Routing robustness</p>
+    <p class="en"><span class="lang">EN</span>Good evening. We are Do Anh Dung, Xiangli Qianhui, and Yang Jian. Here is the situation we are going to take apart. You perturb an input. The prediction gets worse, and the model also picks a different expert. It is tempting to say the new route caused the error, because the two things moved together. The next fifteen minutes ask whether that sentence is true.</p>
+    <p class="zh"><span class="lang">中</span>大家晚上好。我们是 Do Anh Dung、向丽千惠和杨戬。我们要拆开的是这个局面：输入被扰动以后，预测变差了，模型也换了一个专家。因为两件事一起动，很容易说是新路由造成了误差。接下来十五分钟要问的就是，这句话成不成立。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 2 / 15 页 · 15 minutes</p>
+    <p class="en"><span class="lang">EN</span>I start with a test: measure how much one route change contributes to the error. Qianhui then applies that to different perturbations. The routing term is sometimes near zero, sometimes offsets the error, and sometimes adds to it. Jian asks: if we train the router to switch less, do we predict better?</p>
+    <p class="zh"><span class="lang">中</span>我先做一个测试：算出一次路由变化对误差的贡献。千惠再用它看不同的扰动，路由项有时接近零，有时抵消误差，有时加重误差。杨戬问的是：把路由器训练得少切换，预测会不会更好？</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 3 / 15 页 · A changed route is not an explanation</p>
+    <p class="en"><span class="lang">EN</span>We have to keep two situations apart. One is the expert input: the features the chosen expert actually reads. The other is the route: which expert was chosen, and the weight on that expert. Once the input is perturbed, the prediction gets worse, and the expert often changes too. These two things happen together, so seeing a new expert does not mean the route caused the error.</p>
+    <p class="zh"><span class="lang">中</span>我们要考虑到不同的情况。一个是专家输入，被选中的专家真正读到的特征。一个是路由情况，选了哪个专家、权重是多少。输入一被扰动，预测变差，专家也常常换了。这两件事一起发生，所以说，不能看见换了专家就说是路由造成的。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 4 / 15 页 · Same model, four cells</p>
+    <p class="en"><span class="lang">EN</span>We test those possibilities with four experiments on one trained model, and separate the two. Clean input with the clean route, and perturbed input with the perturbed route. The other two cells cross them. The order we report changes the features first and holds the route fixed: the perturbed features go to the expert the clean input would have chosen. The extra error there is the input effect. We then change the route to the expert and the weight chosen on the perturbed input. That piece is the routing effect. The two add up to the whole change in error from clean to perturbed.</p>
+    <p class="zh"><span class="lang">中</span>我们针对这些可能，用同一个训练好的模型做四个实验，把这两样拆开。干净输入配干净路由，扰动输入配扰动路由。另外两格是交叉的。报告的顺序是先改特征、路由先不变：扰动后的特征交给干净输入会选的那个专家，误差多出来的这一截叫输入效应。然后再改变路由，换成扰动输入会选的专家和权重，这一截叫路由效应。两个加起来就是从干净到扰动的全部误差变化。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 5 / 15 页 · Same u, four tasks</p>
+    <p class="en"><span class="lang">EN</span>This slide is what data we put the experiment on. The cue says which of four formulas to use: a sum, a contrast, a product, or the sine of that sum. The answer uses the same vector <em>u</em> each time, plus a nuisance vector <em>v</em> for interference. Because the data is synthetic, we can choose two kinds of perturbation on purpose. One perturbs only <em>v</em>. The other masks part of <em>u</em>, or removes the cue. In the shortcut setup, training secretly hides something related to the cue inside <em>v</em>, so the model might learn a shortcut. At test time we remove what was hidden there. Qianhui will now read the routing contribution in each case. Watch whether it is near zero, offsets the error, or adds to the error.</p>
+    <p class="zh"><span class="lang">中</span>这一页讲的是，我们把刚刚的实验放在什么样的数据上。cue 说明用四种算法里的哪一种：求和、对比、乘积，或者这个和的正弦。要算的是同一段向量 u，和用于干扰的 v。正因为是我们人造的数据，可以故意分两种扰动。一种只打乱 v。另一种遮住 u 里的一部分，或者擦掉 cue。shortcut 设定里，训练时偷偷在 v 里藏一点和 cue 有关的东西，让模型可能学会走捷径；测试时把这份偷偷塞进去的东西拿掉。千惠现在逐个读出路由项的贡献。请看它是接近零、抵消误差，还是加重误差。</p>
+  </div>
+  <p class="note">第 5 页末尾要看着千惠说 “Qianhui will now read the routing contribution”。第 4 页是方法，第 5 页是数据；数字从第 7 页开始。赶时间四种映射说成 sum, contrast, product, and a sine of that sum 即可。</p>
+</section>
+
+<section class="who-qian" id="qian">
+  <h2>向丽千惠，5:00–10:00 · 第 6–9 页</h2>
+  <p class="meta">接 Dung 算出的贡献。第 6 页先确认路由是真的，第 7 页看到接近零和抵消，第 8 页看到加重，第 9 页交给杨戬。</p>
+
+  <div class="beat">
+    <p class="pg">第 6 / 15 页 · Experts specialize</p>
+    <p class="en"><span class="lang">EN</span>Thank you. Dung gave us a way to measure how much a route change contributes to the error. The three numbers at the top are the claim. The heatmaps show specialization: in each task, one darker blue cell is the expert used most. That dominant expert receives 0.579 of a task's routes. Drop it, and MSE rises by 0.326. The scatter on the right is the third number. Each point is one task in one seed. Across is the cost of dropping that expert. Up is how much noise raised the error. If those two moved together, the points would climb. They do not. The correlation is 0.11. As the figure shows, an expert the clean task needs is not automatically why the model fails under noise. On the next slides we will not discuss whether experts exist. We only ask which of Dung's two terms moved when the error went up.</p>
+    <p class="zh"><span class="lang">中</span>谢谢。Dung 给了我们一个算法：一次路由变化对误差贡献多少。上面三个数就是这一页的结论。左边热力图是分工：每个任务通常有一块更深的蓝代表用的最多的专家。那个主导专家接到该任务 0.579 的路由。如果去掉它，MSE 上升 0.326。右边散点图就是第三个数字。一个点是一个种子上的一种任务。横轴是拿掉主导专家的代价，纵轴是噪声让误差涨了多少。如果这两件事一起走，点会往右上爬。它们没有。相关只有 0.11。如图所示，干净任务需要的专家，并不自动就是噪声下失败的原因。后面几页我们决定不讨论专家存不存在，只问误差上升时，Dung 的两项里哪一项动了。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 7 / 15 页 · Task kept: routing is not one story</p>
+    <p class="en"><span class="lang">EN</span>Start where the task is still there. We only perturb nuisance coordinates. These numbers are changes in MSE times 10,000, so 1.49 means a change of 0.000149. The thick bar is the range. The dot is the mean. Blue on the left is holding the original route. All four bars sit right of zero, so reading the dirty input raises the error. Red on the right is then allowing a switch. The first three rows are independent noise, independent shift, and shortcut noise. The dots are −0.10, −0.10, and −0.17. Do not read only the dots. On independent noise, some of the five seeds are positive and some are negative; the mean is −0.10. Those three red bars sit on zero, so we cannot tell whether switching helps or hurts. The last row is shortcut shift: every coordinate of v is moved by the same amount. The red bar is entirely left of zero, −2.29. Switching is detected, and it nearly cancels the blue +2.33. So in this case, switching helps.</p>
+    <p class="zh"><span class="lang">中</span>从任务还在的情形开始。我们只扰动干扰坐标。这些数是 MSE 的变化再乘以 10,000，所以 1.49 是 0.000149 的变化。粗横线是范围，圆点是平均数。左边蓝的是固定原来的路。四条都在零线右边，读脏输入这一步都是上升。右边红的是再允许换专家。前三行是独立噪声、独立移位、Shortcut 噪声。圆点是 −0.10、−0.10、−0.17。不要只看圆点。以独立噪声为例：五个种子有的正、有的负，平均才是 −0.10。这三行红线压着零，分不出换专家有用还是有害。最后一行是 Shortcut 移位：把 v 的每一维整体平移。红线整段在零左边，−2.29。换专家被检出了，而且几乎把蓝的 +2.33 抵消。所以这种情况下，换专家有效。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 8 / 15 页 · Deleting information is not one case</p>
+    <p class="en"><span class="lang">EN</span>Now we delete the task information. This experiment uses two methods. The first is a mask: the cue is kept, and we punch holes in u. As the mask grows, the input term goes from 0.16 to 0.59. Routing stays below 0.01, while the switch rate still rises from 0.12 to 0.27. Experts switch more often, but that barely changes the error. The extra error is reading incomplete numbers. The second method is cue deletion. With the cue off on half the items, the numbers stay, but the model does not know which formula to use. Input is 0.28 and routing is 0.15. Both add to the error. Restoring only the clean expert index, and keeping the perturbed gate weight, accounts for about 0.18. Here switching makes it worse, because the router was using the cue to choose.</p>
+    <p class="zh"><span class="lang">中</span>现在我们把任务信息删掉，本实验采取两种办法。第一种是掩码：提示保存，把 u 挖洞。掩码变大时，输入项从 0.16 到 0.59。路由项仍低于 0.01，切换率却从 0.12 升到 0.27。专家换得更高频了，但是几乎没再改对错。错是因为对着残缺的数字在算。第二种是删 cue：一半样本关掉 cue，保留数字，但不知道该用哪种算法。输入 0.28，路由 0.15，两项都在加重误差。只恢复干净专家编号、保留扰动后的门控权重，大约解释 0.18。这里换专家是在帮倒忙，因为路由器本来靠 cue 做选择。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 9 / 15 页 · Dense nets: the gap depends on the test</p>
+    <p class="en"><span class="lang">EN</span>It can look as if mixture-of-experts and the dense nets have one overall winner. They need not. At a 25 percent mask, all three models sit near 0.323. With the cue off on 50 percent of items, the mixture-of-experts model is worse: 0.43, against 0.40 and 0.35. Under nuisance noise, the paired gaps contain 0, so there is no real winner. The gap depends on the test. Jian now changes the training.</p>
+    <p class="zh"><span class="lang">中</span>好像混合专家和稠密网络有一个总赢家，但是未必。25% 掩码上，三个模型都在 0.323 附近。50% 删 cue 时，混合专家更差：0.43，对照 0.40 和 0.35。干扰噪声上，配对差距包含 0，所以没有真正的赢家。差距取决于测试。杨戬现在去改训练。</p>
+  </div>
+  <p class="note">第 6 页先接 Dung 的算法。第 7 页最后一行就是 shortcut 移位。第 9 页末尾看着杨戬说 “Jian now changes the training”。被问到延迟再用第 9 页幻灯片底行 1.19 ms。</p>
+</section>
+
+<section class="who-jian" id="jian">
+  <h2>杨戬，10:00–15:00 · 第 10–15 页</h2>
+  <p class="meta">接千惠的固定检查点。第 10–11 页说明更稳还不等于更准，第 12 页问这是不是只在合成数据上成立，第 13–15 页收成三句话。</p>
+
+  <div class="beat">
+    <p class="pg">第 10 / 15 页 · A lower curve is not a detected gain</p>
+    <p class="en"><span class="lang">EN</span>Thank you. Qianhui measured how much a route change contributes to the error, inside models that were already trained. I ask whether we should train the router to stay put. Three matched arms: clean training, nuisance-noise augmentation, and augmentation plus a consistency penalty. The penalty pulls the router on the noisy view toward the stopped clean router, with weight one tenth. On this figure the consistency curve is the lowest. Do not read that as a detected gain. Every paired gap against augmentation includes 0. A lower curve is an observed mean. The next slide shows what actually moved.</p>
+    <p class="zh"><span class="lang">中</span>谢谢。千惠算的是已经训练好的模型里，一次路由变化对误差贡献多少。我问的是，要不要把路由器训练得少动。三组对齐的训练：干净、干扰噪声增强，以及增强再加一致性惩罚。惩罚把加噪视图上的路由拉向停住的干净路由，权重是十分之一。这张图上一致性曲线最低。不要把它读成被检出的收益。每一条相对增强的配对差距都包含 0。更低的曲线只是观察到的均值。下一页才是真正动了的东西。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 11 / 15 页 · Where the switch rate actually drops</p>
+    <p class="en"><span class="lang">EN</span>What moved is the switch rate. The bars are the rate times 100. Look at the bottom row, the shortcut shift: clean 4.09, augmentation 2.56, consistency 0.99. The other rows have the same shape: independent noise 2.88, 2.30, 1.60; independent shift 3.18, 3.11, 1.53; shortcut noise 4.00, 3.15, 1.09. Most of the drop from clean training is already there under augmentation. Consistency goes further. That further drop is a real change in switching. We do not detect an accuracy gain from it. The router became stabler. The paired error did not clearly follow. The remaining question is whether this pattern is only synthetic.</p>
+    <p class="zh"><span class="lang">中</span>动了的是切换率。这些柱已经乘以 100。看最下面一行，shortcut 移位：干净 4.09，增强 2.56，一致性 0.99。其他行是同一个形状：独立噪声 2.88、2.30、1.60；独立移位 3.18、3.11、1.53；shortcut 噪声 4.00、3.15、1.09。相对干净训练的下降，大部分在增强里已经出现。一致性再往下降。这一截作为切换是真的变化。我们没有从它检出精度收益。路由器更稳了，配对误差没有清楚地跟着动。剩下的问题是，这个样子是不是只在合成数据上。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 12 / 15 页 · SARCOS: same decomposition, one exception</p>
+    <p class="en"><span class="lang">EN</span>It is not only synthetic. SARCOS is the same decomposition on one robot arm: 21 sensors, seven torques, and a joint cue we add so the input is still 28-dimensional. Do not compare the size of these errors with the synthetic nuisance errors. There, noise left the predictive coordinates intact. Here, sensor noise hits the coordinates that determine torque. At noise 0.25 the story still matches Qianhui's nuisance rows: input about 0.098, routing about 0.0004, and that routing interval includes 0, beside a switch rate of about 0.067. Experts switch, and the measured cause is still the input. Masking 6 of 21 sensors is the exception. Routing is −0.032, interval −0.044 to −0.020. Rerouting offsets part of the extra error, the way the shortcut shift did. Forcing the clean route back would increase the error. One exception, not a second rule.</p>
+    <p class="zh"><span class="lang">中</span>不只是合成数据。SARCOS 是同一套分解，用在一条机械臂上：21 个传感器、七个力矩，再加上我们补的关节 cue，输入仍是 28 维。不要拿这些误差的大小去和合成干扰误差比。那边噪声留下了预测坐标。这边传感器噪声打在决定力矩的坐标上。噪声 0.25 时，故事仍然和千惠的干扰行一样：输入约 0.098，路由约 0.0004，这个路由区间包含 0，旁边切换率约 0.067。专家在切换，算出来的原因仍是输入。例外是掩掉 21 个里的 6 个。路由 −0.032，区间 −0.044 到 −0.020。重路由抵消一部分多出来的误差，和 shortcut 移位是同一种事。把干净路由换回去会增大误差。这是一个例外，不是第二条规律。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 13 / 15 页 · What these fifteen minutes support</p>
+    <p class="en"><span class="lang">EN</span>Put the three steps back together, in the order we showed them. First, from Qianhui's nuisance rows and from this robot arm: noise error is an input effect, even when experts switch. Second, the routing term is sometimes near zero, sometimes offsets the extra error so the total looks unchanged, and sometimes adds to the error. The switch rate contained none of those three. Third, from the training comparison: a stabler router is not yet a better predictor. On SARCOS the primary endpoint, consistency minus augmentation at noise 0.25, is 0.000056, interval about −0.0009 to 0.0014. Switching falls by about half a percentage point, and that drop is detected. The accuracy gain is not.</p>
+    <p class="zh"><span class="lang">中</span>把三步按刚才演示的顺序收回来。第一，从千惠的干扰行和这条机械臂：噪声误差是输入效应，即使专家在切换。第二，路由项有时接近零，有时抵消多出来的误差、让总和看起来没变，有时加重误差。这三种情形，切换率里一种都没有。第三，从训练比较：更稳的路由器还不是更好的预测器。SARCOS 主终点是噪声 0.25 上一致性减增强，0.000056，区间大约 −0.0009 到 0.0014。切换大约下降半个百分点，这条下降被检出了。精度收益没有。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 14 / 15 页 · Where it stops</p>
+    <p class="en"><span class="lang">EN</span>Those three claims stay this size, and no larger. The cue is given, so the model does not have to discover the tasks. These are four MLP experts with top-1 routing, not a language model. Input first and route first can split the same total differently, so we do not rank input above routing for every order. SARCOS is one archive. Inside those bounds, the claims stand.</p>
+    <p class="zh"><span class="lang">中</span>这三条结论就到这个大小，不再更大。Cue 是给的，所以模型不必自己发现任务。这是四个 MLP 专家的 top-1，不是语言模型。先改输入和先改路由可以把同一个总和拆得不同，所以我们不在每一种顺序上都把输入排在路由前面。SARCOS 只是一份档案。在这些边界里面，结论成立。</p>
+  </div>
+  <div class="beat">
+    <p class="pg">第 15 / 15 页 · The paired contrast prices a route change</p>
+    <p class="en"><span class="lang">EN</span>If you remember one sentence from the measurement Dung built, and from every case after it: the paired contrast prices a route change. In the words we have been using, it measures how much that change contributes to the error. A switch count does not. Thank you. We are happy to take questions.</p>
+    <p class="zh"><span class="lang">中</span>如果从 Dung 做的测量、以及后面每一个情形里只记一句：幻灯片上写的是 the paired contrast prices a route change。用我们一直在说的话，就是配对对比算出这次路由变化对误差的贡献。切换次数算不出。谢谢。我们准备回答问题。</p>
+  </div>
+  <p class="note">第 10 页先接 “Qianhui measured how much a route change contributes”。赶时间时第 13 页只讲三句结论，SARCOS 掩码的例外留在第 12 页，主终点的小数留到被问再报。</p>
+</section>
+
+<section id="qa">
+  <h3>老师可能问的</h3>
+  <div class="how">
+    <p>两种问法用的是同一套答案。按分工，是老师点名一个人，只追他讲过的部分。按顺序，是老师顺着幻灯片打断，问的是刚刚那一页。</p>
+    <p>台上先用英文那一句。中文是同一句的意思，用来确认没有说错。红色是不要说出口的话。被问到别人页上的数字时，先答原则，再把数字交给讲过那一页的人。</p>
+  </div>
+  <div class="modes">
+    <label><input type="radio" name="qmode" id="by-role" checked>按分工问</label>
+    <label><input type="radio" name="qmode" id="by-order">按答辩顺序问</label>
+  </div>
+
+  <div id="mode-role">
+    <h2 class="person dung">Do Anh Dung · 定义和实验设计</h2>
+
+    <article class="qa">
+      <h4>第 3 页 · 切换率为什么不是解释？</h4>
+      <p class="ask">也可能问：You showed that experts switch. Isn’t that the mechanism?</p>
+      <p class="say"><span class="k">EN</span>The switch rate counts how often the top-1 expert changes. It does not say what that change did to the error. The new route can add error, offset it, or make no detected difference. The four-cell contrast is what measures that contribution.</p>
+      <p class="zh"><span class="lang">中</span>切换率只计算 top-1 变了多少次，不说明这次变化对误差做了什么。新路由可以加重误差、抵消误差，或没有被检出的差别。算出这份贡献的是四格对比。</p>
+      <p class="dont">不要说：路由不重要，或者切换没有意义。</p>
+    </article>
+    <article class="qa">
+      <h4>第 4 页 · 四个格子到底在比什么？干净路由是最优的吗？</h4>
+      <p class="ask">也可能问：Is L10 a route the model would actually choose?</p>
+      <p class="say"><span class="k">EN</span>One trained model, target fixed. The input term changes the features and keeps the clean expert and the clean gate weight. The routing term then lets the index and the weight become the ones chosen on the perturbed input. We do not claim the clean route is optimal. If routing is negative, putting it back increases error.</p>
+      <p class="zh"><span class="lang">中</span>同一个模型，标签不动。输入项只换特征，专家编号和门控权重保持干净值。路由项再换成扰动输入会选出的编号和权重。干净路由不是最优。路由项为负时，换回去会让误差变大。</p>
+      <p class="dont">不要说：这是路由器自己会走的一条部署策略。</p>
+    </article>
+    <article class="qa">
+      <h4>第 4 页 · 为什么不训练四个模型？</h4>
+      <p class="say"><span class="k">EN</span>The question is what one route change does inside a fixed model. Four separately trained models would mix training noise into the contrast.</p>
+      <p class="zh"><span class="lang">中</span>问题是同一次路由变化在固定模型里对误差贡献多少。分开训练的四个模型会把训练噪声混进对比。</p>
+    </article>
+    <article class="qa">
+      <h4>第 5 页 · Shortcut 里 cue 还在，这还算捷径吗？</h4>
+      <p class="say"><span class="k">EN</span>The explicit cue stays visible in both profiles. The shortcut is an extra training offset, twice the cue, on nuisance coordinates. The test set removes that offset. So the clean shortcut test has already lost the training shortcut. Later noise and shifts are paired with that clean test.</p>
+      <p class="zh"><span class="lang">中</span>两种剖面里，显式 cue 都还在。捷径是训练时加在干扰坐标上的两倍 cue。测试集把这个偏移拿掉。所以 shortcut 的干净测试已经失去了训练捷径，后面的噪声和移位都是相对这个干净测试。</p>
+      <p class="dont">不要说：模型在测试时看不见任务，只能靠捷径。</p>
+    </article>
+    <article class="qa">
+      <h4>第 5 页 · 第四个任务不就是第一个的正弦吗？</h4>
+      <p class="say"><span class="k">EN</span>Yes. f1 and f2 are two linear directions, f3 needs a product, and f4 applies a sine to the same projection as f1. The point is four maps on one u, not four unrelated datasets.</p>
+      <p class="zh"><span class="lang">中</span>是的。f1 和 f2 是两个线性方向，f3 需要乘积，f4 是对 f1 同一个投影做正弦。要点是同一个 u 上的四种映射，不是四份互不相关的数据。</p>
+    </article>
+
+    <h2 class="person qian">向丽千惠 · 分解结果</h2>
+
+    <article class="qa">
+      <h4>第 6 页 · 0.579 和 +0.326 很强，相关 0.11 是不是说专业化没用？</h4>
+      <p class="say"><span class="k">EN</span>Specialization is real: one expert receives 0.579 of a regime’s routes, and removing it raises MSE by 0.326. That cost correlates only 0.11 with noise error. Clean-task dependence is a weak guide to noise robustness.</p>
+      <p class="zh"><span class="lang">中</span>专业化是真的：一个专家接到该状态 0.579 的路由，拿掉后 MSE +0.326。这个代价和噪声误差只相关 0.11。干净任务上的依赖，不太能预测噪声稳健性。</p>
+      <p class="dont">不要说：专家没有分工。</p>
+    </article>
+    <article class="qa">
+      <h4>第 7–8 页 · +2.33 是不是很大？和后面的 0.59 怎么比？</h4>
+      <p class="say"><span class="k">EN</span>Different scales. +2.33 is a change in MSE times 10,000, so about 0.000233. The mask numbers are raw MSE, on the order of tenths. The nuisance effect is the smaller absolute change.</p>
+      <p class="zh"><span class="lang">中</span>刻度不同。+2.33 是 MSE 变化乘以 10,000，大约 0.000233。掩码那些数是原始 MSE，量级是十分之几。干扰效应的绝对变化更小。</p>
+    </article>
+    <article class="qa">
+      <h4>第 7 页 · 前三行路由区间包含 0，最后一行又抵消了误差。哪个对？</h4>
+      <p class="say"><span class="k">EN</span>Both, on different rows. On nuisance noise and shift, the routing interval includes 0. On the shortcut shift, routing is −2.29×10<sup>−4</sup> and the interval excludes 0. The switch rate cannot tell those rows apart.</p>
+      <p class="zh"><span class="lang">中</span>两行都对，但是不同的行。干扰噪声和移位上，路由区间包含 0。Shortcut 移位的路由项是 −2.29×10<sup>−4</sup>，区间不含 0。切换率分不出这些行。</p>
+      <p class="dont">不要说：路由从不重要。也不要把 2.33 和 2.29 说成正好相等。</p>
+    </article>
+    <article class="qa">
+      <h4>第 7 页 · 区间这么宽，抵消成立吗？包含 0 是不是没有效果？</h4>
+      <p class="say"><span class="k">EN</span>The sizes are uncertain. The directions are established. Input is entirely above 0, routing entirely below 0, and the total interval contains 0. An interval that contains 0 means the direction is not established. It does not prove the effect is zero, and it does not prove two methods are equivalent.</p>
+      <p class="zh"><span class="lang">中</span>大小不确定，方向是确定的。输入整个在 0 以上，路由整个在 0 以下，总和的区间包含 0。区间包含 0 只是没有确立方向，不是证明效果为零，也不是证明两种方法等价。五个种子和交叉 bootstrap 是区间宽的原因。</p>
+    </article>
+    <article class="qa">
+      <h4>第 8 页 · 掩码上切换从 0.12 到 0.27，路由项为什么还小于 0.01？</h4>
+      <p class="say"><span class="k">EN</span>Switching and the routing term answer different questions. The rate says the expert index changed. The term says that, on the forward path, adopting the new route did not add a detected change in MSE beyond the perturbed input. Here the input term grows from 0.16 to 0.59.</p>
+      <p class="zh"><span class="lang">中</span>切换率和路由项问的不是同一件事。切换率说专家编号变了。路由项说，在前向路径上，采用新路由并没有在扰动后的输入之外再检出一份 MSE 变化。这里输入项从 0.16 长到 0.59。</p>
+    </article>
+    <article class="qa">
+      <h4>第 8–9 页 · 掩码上三个模型打平，删掉 cue 后 MoE 为什么更差？</h4>
+      <p class="say"><span class="k">EN</span>The cue is an input to the router, not only a feature inside the expert. At a 25 percent mask all three models sit near 0.323. At 50 percent cue deletion on the independent profile, input is 0.28 and routing is 0.15. The errors separate: MoE 0.43, compute-matched 0.40, parameter-matched 0.35. Restoring only the clean expert index accounts for about 0.18. A dense net has no expert index to restore.</p>
+      <p class="zh"><span class="lang">中</span>Cue 不只是专家内部的特征，也是路由器的输入。25% 掩码上三个模型都在 0.323 附近。独立剖面删掉 50% 的 cue 时，输入 0.28、路由 0.15，误差分开：MoE 0.43，计算量匹配 0.40，参数量匹配 0.35。只恢复干净专家编号大约解释 0.18。稠密网络没有专家编号可以恢复。</p>
+      <p class="dont">不要说：MoE 全面差于稠密网络。噪声上的配对区间包含 0。</p>
+    </article>
+
+    <h2 class="person jian">杨戬 · 训练、SARCOS、边界</h2>
+
+    <article class="qa">
+      <h4>第 10–11 页 · 曲线最低、切换也更少，为什么不叫收益？</h4>
+      <p class="say"><span class="k">EN</span>The means go the right way. The paired test does not. The penalty is 0.1 times the KL from the stopped clean router distribution to the router on the noisy view. Every synthetic consistency-minus-augmentation error interval includes 0. On SARCOS, at noise 0.25, the primary difference is 0.000056, interval −0.000928 to 0.001403. Switching falls from 0.0660 to 0.0609, and that drop is detected.</p>
+      <p class="zh"><span class="lang">中</span>均值方向对，配对检验没有检出。惩罚是 0.1 倍的 KL，从停梯度的干净路由分布，到加噪视图上的路由。合成数据里，每一条一致性减增强的误差区间都包含 0。SARCOS 噪声 0.25 的主终点差是 0.000056，区间 −0.000928 到 0.001403。切换率从 0.0660 降到 0.0609，这条下降被检出了。</p>
+      <p class="dont">不要说：一致性没有用，或者两种训练等价。</p>
+    </article>
+    <article class="qa">
+      <h4>第 11 页 · 增强已经把切换率降下来了，一致性是不是多余？</h4>
+      <p class="say"><span class="k">EN</span>Most of the drop from clean training is already in the augmentation arm. Consistency goes further on the switch rate. We do not detect an extra accuracy gain from that further drop. So the extra stability is observed, and the extra accuracy is not established.</p>
+      <p class="zh"><span class="lang">中</span>相对干净训练的下降，大部分已经在增强组里。一致性把切换率再压低一截。这一截没有检出额外的精度。所以额外的稳定性看到了，额外的精度没有确立。</p>
+    </article>
+    <article class="qa">
+      <h4>第 8 页和第 12 页 · 为什么 SARCOS 掩码上重路由有帮助，合成掩码上没有？</h4>
+      <p class="say"><span class="k">EN</span>They are not the same perturbation. Synthetic masks zero predictive coordinates, and the forward routing term stays below 0.01. Masking 6 of 21 SARCOS sensors gives an input term of about 0.425 and a routing term of −0.032, interval −0.044 to −0.020. That is the named exception, not a second general law. Also do not compare synthetic nuisance error with SARCOS sensor error: one leaves the predictive coordinates intact, the other corrupts the coordinates that determine torque.</p>
+      <p class="zh"><span class="lang">中</span>不是同一种扰动。合成掩码把预测坐标置零，前向路由项低于 0.01。SARCOS 掩掉 21 个里的 6 个，输入项约 0.425，路由项 −0.032，区间不含 0。这是点名的例外，不是第二条普遍规律。合成干扰误差和传感器误差的大小也不能比：一个留下预测坐标，一个破坏决定力矩的坐标。</p>
+    </article>
+    <article class="qa">
+      <h4>第 7 页和第 14 页 · 先改路由会怎样？这是不是语言模型的结论？</h4>
+      <p class="say"><span class="k">EN</span>The total is the same. The split need not be. On the shortcut shift, putting the shifted route on the clean input raises MSE by about 0.000164, and changing the input afterwards lowers it by about 0.000160. The shifted route helps only together with the shifted input. And no, this is not a language-model result: four MLP experts, top-1, the softmax weight kept, no attention and no residual stream. The cue is given.</p>
+      <p class="zh"><span class="lang">中</span>总和相同，拆分可以不同。Shortcut 移位上，把移位后的路由装到干净输入，MSE 大约上升 0.000164；再改输入，大约下降 0.000160。移位后的路由只在配上移位后的输入时有益。这也不是语言模型的结果：四个 MLP、top-1、保留 softmax 权重，没有注意力和残差流。Cue 是给好的。</p>
+      <p class="dont">不要说：输入永远比路由重要。幻灯片上的 Input 和 Routing 都是先输入、后路由。</p>
+    </article>
+    <article class="qa">
+      <h4>第 9 页 · 如果被问到计算量</h4>
+      <p class="say"><span class="k">EN</span>The MoE has 85,640 parameters and 24,192 active linear multiply-accumulates. The compute-matched dense net matches the multiply-accumulates and has fewer parameters. The parameter-matched net matches the parameter count and does more compute. Measured dispatch is still about 1.19 milliseconds against about 0.14. That is cost. It is not an MSE result, and it does not explain the cue-deletion gap.</p>
+      <p class="zh"><span class="lang">中</span>MoE 有 85,640 个参数、每样本 24,192 次活跃线性乘加。计算量匹配的稠密网络对齐乘加、参数更少。参数量匹配的网络对齐参数、计算更多。实测分发仍约 1.19 毫秒，稠密网络约 0.14。这是成本，不是 MSE，也解释不了删 cue 后的差距。</p>
+    </article>
+  </div>
+
+  <div id="mode-order">
+    <p class="slide-tag">第 1–5 页 · 0:00–5:00 · Do Anh Dung 在台上</p>
+
+    <article class="qa">
+      <h4>第 1–3 页 · 刚开口就问：所以你们认为路由不重要？</h4>
+      <p class="ask">So routing does not matter?</p>
+      <p class="say"><span class="k">EN</span>No. Seeing a switch does not tell you what the new route did to the error. It can add to the error, offset it, or make no detected difference. Qianhui will show one row of each.</p>
+      <p class="zh"><span class="lang">中</span>不是。看见切换，并不知道新路由对误差做了什么。它可以加重误差、抵消误差，或没有被检出的差别。千惠会各给一行。</p>
+      <p class="dont">不要在第一页就把 shortcut shift 的 −2.29 背完。先把原则说清。</p>
+    </article>
+    <article class="qa">
+      <h4>第 4 页 · L10 是模型自己会选的路由吗？</h4>
+      <p class="say"><span class="k">EN</span>No. It is an intervention inside one trained model. We hold the clean expert and the clean gate weight, and change only the features the expert reads. The clean route is not claimed to be optimal.</p>
+      <p class="zh"><span class="lang">中</span>不是。这是同一个训练好的模型内部的干预。我们按住干净专家和干净门控权重，只改专家读到的特征。并不声称干净路由最优。</p>
+    </article>
+    <article class="qa">
+      <h4>第 5 页 · 任务是不是太简单，而且 cue 已经把答案告诉模型了？</h4>
+      <p class="say"><span class="k">EN</span>The cue is given, so the model does not discover the tasks. f1 and f2 are linear, f3 needs a product, and f4 is a sine of f1. The design is there so we can separate expert input from route. It is not a claim about finding tasks in the wild. That limit is on slide 15.</p>
+      <p class="zh"><span class="lang">中</span>Cue 是给的，所以模型不必自己发现任务。f1、f2 是线性的，f3 要乘积，f4 是 f1 的正弦。这个设计是为了把专家输入和路由分开，不是在声称模型能在野外发现任务。这条边界在第 14 页。</p>
+    </article>
+
+    <p class="slide-tag">第 6–9 页 · 5:00–10:00 · 向丽千惠在台上。数字问她，定义可以交回 Dung。</p>
+
+    <article class="qa">
+      <h4>第 6 页 · 拿掉专家要 +0.326，为什么噪声相关只有 0.11？</h4>
+      <p class="say"><span class="k">EN</span>The removal cost measures dependence on the clean task. The correlation says that cost barely tracks noise error. A specialist can be necessary when the task is intact and still not explain the noise failure.</p>
+      <p class="zh"><span class="lang">中</span>拿掉的代价量的是干净任务上的依赖。相关说的是，这个代价几乎不跟着噪声误差走。专家可以在任务完整时不可少，却仍然解释不了噪声失败。</p>
+    </article>
+    <article class="qa">
+      <h4>第 7 页 · 路由都包含 0，是不是路由效应就是零？</h4>
+      <p class="say"><span class="k">EN</span>No. The interval includes 0, so this comparison does not establish a direction. It is not a proof of a zero effect. And the next slide is a row where the routing interval excludes 0.</p>
+      <p class="zh"><span class="lang">中</span>不是。区间包含 0，只是这次比较没有确立方向，不是证明效应为零。同一页最后一行，路由区间不含 0。</p>
+    </article>
+    <article class="qa">
+      <h4>第 7 页 · 总和几乎是 0，你们是不是什么都没发现？</h4>
+      <p class="say"><span class="k">EN</span>The total interval contains 0. The two pieces do not. Input is +2.33×10<sup>−4</sup> with an interval above 0, routing is −2.29×10<sup>−4</sup> with an interval below 0. A near-zero headline is hiding two opposed effects. We do not say they cancel exactly.</p>
+      <p class="zh"><span class="lang">中</span>总和的区间包含 0，两个分量不是。输入是 +2.33×10<sup>−4</sup>，区间在 0 以上；路由是 −2.29×10<sup>−4</sup>，区间在 0 以下。接近零的标题盖住了两个相反的效应。我们不说它们精确抵消。</p>
+    </article>
+    <article class="qa">
+      <h4>第 8 页 · 切换升了，为什么还说路由项很小？删 cue 又为什么变了？</h4>
+      <p class="say"><span class="k">EN</span>Under masks, the input term grows from 0.16 to 0.59 and routing stays below 0.01, even while the switch rate rises from 0.12 to 0.27. Cue deletion is a different deletion. At 50 percent, both terms are harmful: input 0.28, routing 0.15. Restoring only the clean expert index accounts for about 0.18.</p>
+      <p class="zh"><span class="lang">中</span>掩码下输入项从 0.16 到 0.59，路由项低于 0.01，尽管切换率从 0.12 升到 0.27。删 cue 是另一种删除。50% 时两项都有害：输入 0.28，路由 0.15。只恢复干净专家编号大约解释 0.18。</p>
+    </article>
+    <article class="qa">
+      <h4>第 9 页 · 一会儿打平，一会儿 MoE 更差，结论到底是什么？</h4>
+      <p class="say"><span class="k">EN</span>The gap depends on the test. At a 25 percent mask, all three models are near 0.323. At 50 percent cue deletion, MoE is 0.43 against 0.40 and 0.35. Under nuisance noise, the paired intervals contain 0, so we name no winner. The 1.19 versus 0.14 milliseconds is latency, not accuracy.</p>
+      <p class="zh"><span class="lang">中</span>差距取决于测试。25% 掩码上三个模型都在 0.323 附近。50% 删 cue 时，MoE 是 0.43，对照 0.40 和 0.35。干扰噪声上配对区间包含 0，所以不宣布赢家。1.19 对 0.14 毫秒是延迟，不是精度。</p>
+    </article>
+
+    <p class="slide-tag">第 10–15 页 · 10:00–15:00 · 杨戬在台上。前两段的定义问到时，原则自己答，细数交回前一位。</p>
+
+    <article class="qa">
+      <h4>第 10 页 · 一致性曲线明显更低，为什么说没有收益？</h4>
+      <p class="say"><span class="k">EN</span>Lower on the figure is the observed mean. Every paired gap versus augmentation includes 0. The same pattern is the SARCOS primary endpoint: consistency minus augmentation at noise 0.25 is 0.000056, interval −0.000928 to 0.001403.</p>
+      <p class="zh"><span class="lang">中</span>图上更低是观察到的均值。每一条相对增强的配对差距都包含 0。SARCOS 主终点是同一件事：噪声 0.25 上一致性减增强等于 0.000056，区间 −0.000928 到 0.001403。</p>
+      <p class="dont">不要说两种训练等价，也不要说一致性失败了。切换率的下降是检出的。</p>
+    </article>
+    <article class="qa">
+      <h4>第 11 页 · 既然增强已经降了，一致性的进一步下降算什么？</h4>
+      <p class="say"><span class="k">EN</span>It is a further drop in switching. On the shortcut shift the bars are 4.09, 2.56, and 0.99 times 100. We do not detect an accuracy gain of 0.99 over 2.56. Stability moved further. The paired error did not clearly follow.</p>
+      <p class="zh"><span class="lang">中</span>这是切换的进一步下降。Shortcut 移位上三根柱是 4.09、2.56、0.99，都已经乘过 100。我们没有检出 0.99 相对 2.56 的精度收益。稳定性又动了，配对误差没有清楚地跟着动。</p>
+    </article>
+    <article class="qa">
+      <h4>第 12 页 · 合成数据上路由帮不上掩码，这里为什么又帮了？</h4>
+      <p class="say"><span class="k">EN</span>At noise 0.25 the SARCOS story matches: input about 0.098, routing about 0.0004, and that routing interval includes 0, beside a switch rate of about 0.067. The exception is masking 6 of 21 sensors. Routing is −0.032, interval −0.044 to −0.020. Forcing the clean route back would increase error. Synthetic masks are a different intervention, and their routing term stays below 0.01.</p>
+      <p class="zh"><span class="lang">中</span>噪声 0.25 上 SARCOS 和前面一致：输入约 0.098，路由约 0.0004，路由区间包含 0，切换率约 0.067。例外是掩掉 21 个里的 6 个。路由 −0.032，区间 −0.044 到 −0.020。把干净路由换回去会增大误差。合成掩码是另一种干预，路由项低于 0.01。</p>
+    </article>
+    <article class="qa">
+      <h4>第 13 页 · 这是因果吗？能不能排一个输入大于路由？</h4>
+      <p class="say"><span class="k">EN</span>They are within-model interventions on a chosen order. Input and Routing on the slides are input first, then route. The reverse order can split the same total differently. We do not claim an order-free ranking, and we do not claim the clean route is optimal.</p>
+      <p class="zh"><span class="lang">中</span>它们是固定模型里、按选定顺序做的干预。幻灯片上的 Input 和 Routing 是先输入、后路由。反过来可以把同一个总和拆得不同。我们不声称与顺序无关的排名，也不声称干净路由最优。</p>
+    </article>
+    <article class="qa">
+      <h4>第 14 页 · 这些限制是不是把结论掏空了？</h4>
+      <p class="say"><span class="k">EN</span>They bound it. The cue is supplied. These are four MLPs with top-1 routing, not a language model. SARCOS is one arm. Inside those bounds, the three claims stand: noise error is an input effect even when experts switch; the routing term can sit near zero, offset the error, or add to it; a stabler router is not yet a better predictor.</p>
+      <p class="zh"><span class="lang">中</span>它们是在划边界，不是把结论收回。Cue 是给的。这是四个 MLP 的 top-1，不是语言模型。SARCOS 是一条机械臂。在这些边界里面，三条结论还在：噪声误差即使专家切换也是输入效应；路由项可以接近零、抵消误差，或加重误差；更稳的路由器还不是更好的预测器。</p>
+    </article>
+    <article class="qa">
+      <h4>第 15 页 · 如果只给十秒，非本行的人该记住哪一句？</h4>
+      <p class="say"><span class="k">EN</span>Count the switches if you want. To measure how much a route change contributes to the error, use the paired contrast.</p>
+      <p class="zh"><span class="lang">中</span>切换可以数。要算出一次路由变化对误差的贡献，用配对对比。</p>
+    </article>
+  </div>
+</section>
+
+</main>
+</body>
+</html>
